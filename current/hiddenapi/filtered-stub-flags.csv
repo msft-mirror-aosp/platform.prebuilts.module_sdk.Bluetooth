@@ -423,6 +423,13 @@ Landroid/bluetooth/BluetoothAudioConfig;->equals(Ljava/lang/Object;)Z,core-platf
 Landroid/bluetooth/BluetoothAudioConfig;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAudioConfig;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAudioConfig;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->describeContents()I,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAvrcpController;->finalize()V,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAvrcpController;->getConnectedDevices()Ljava/util/List;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAvrcpController;->getConnectionState(Landroid/bluetooth/BluetoothDevice;)I,public-api,system-api,test-api
