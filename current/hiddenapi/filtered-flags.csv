@@ -518,6 +518,13 @@ Landroid/bluetooth/BluetoothAudioConfig;->mChannelConfig:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothAudioConfig;->mSampleRate:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothAudioConfig;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAudioConfig;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->describeContents()I,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothAudioPolicy;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAvrcp;-><init>()V,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothAvrcp;->PASSTHROUGH_ID_0:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothAvrcp;->PASSTHROUGH_ID_1:I,lo-prio,max-target-o
