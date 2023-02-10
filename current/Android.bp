@@ -10,8 +10,8 @@ prebuilt_bootclasspath_fragment {
     name: "com.android.btservices-bootclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
+        config_namespace: "btservices_module",
+        var_name: "source_build",
     },
     visibility: ["//packages/modules/Bluetooth:__subpackages__"],
     apex_available: ["com.android.bluetooth"],
@@ -40,8 +40,8 @@ prebuilt_platform_compat_config {
     name: "bluetooth-compat-config",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
+        config_namespace: "btservices_module",
+        var_name: "source_build",
     },
     visibility: ["//packages/modules/Bluetooth:__subpackages__"],
     licenses: ["btservices-module-sdk_Android-Apache-2.0"],
@@ -52,8 +52,8 @@ java_sdk_library_import {
     name: "framework-bluetooth",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
+        config_namespace: "btservices_module",
+        var_name: "source_build",
     },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.bluetooth"],
@@ -93,8 +93,8 @@ java_import {
     name: "service-bluetooth",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
+        config_namespace: "btservices_module",
+        var_name: "source_build",
     },
     visibility: [
         "//packages/modules/Bluetooth/apex",
@@ -128,8 +128,8 @@ prebuilt_systemserverclasspath_fragment {
     name: "com.android.btservices-systemserverclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
     use_source_config_var: {
-        config_namespace: "ANDROID",
-        var_name: "module_build_from_source",
+        config_namespace: "btservices_module",
+        var_name: "source_build",
     },
     visibility: ["//packages/modules/Bluetooth:__subpackages__"],
     apex_available: ["com.android.bluetooth"],
