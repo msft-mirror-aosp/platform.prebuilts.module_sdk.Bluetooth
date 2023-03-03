@@ -5,7 +5,6 @@ android/bluetooth/BluetoothActivityEnergyInfo
 android/bluetooth/BluetoothAdapter
 android/bluetooth/BluetoothAssignedNumbers
 android/bluetooth/BluetoothAudioConfig
-android/bluetooth/BluetoothAudioPolicy
 android/bluetooth/BluetoothAvrcp
 android/bluetooth/BluetoothAvrcpController
 android/bluetooth/BluetoothAvrcpPlayerSettings
@@ -64,6 +63,7 @@ android/bluetooth/BluetoothProfile
 android/bluetooth/BluetoothProfileConnector
 android/bluetooth/BluetoothSap
 android/bluetooth/BluetoothServerSocket
+android/bluetooth/BluetoothSinkAudioPolicy
 android/bluetooth/BluetoothSocket
 android/bluetooth/BluetoothStatusCodes
 android/bluetooth/BluetoothUtils
