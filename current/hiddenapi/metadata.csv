@@ -16,6 +16,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Landroid/bluetooth/BluetoothAdapter;->mService:Landroid/bluetooth/IBluetooth;|,||,||,||
 |Landroid/bluetooth/BluetoothClass;-><init>(I)V|,|28|,||,|115609023|
 |Landroid/bluetooth/BluetoothCodecConfig;-><init>(IIIIIJJJJ)V|,||,||,||
+|Landroid/bluetooth/BluetoothDevice;-><init>(Landroid/os/Parcel;)V|,||,||,||
 |Landroid/bluetooth/BluetoothDevice;-><init>(Ljava/lang/String;)V|,||,||,||
 |Landroid/bluetooth/BluetoothDevice;->ACTION_SDP_RECORD:Ljava/lang/String;|,|30|,||,|170729553|
 |Landroid/bluetooth/BluetoothDevice;->EXTRA_REASON:Ljava/lang/String;|,||,||,||
