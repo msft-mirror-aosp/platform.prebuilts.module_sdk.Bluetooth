@@ -48,6 +48,30 @@ prebuilt_platform_compat_config {
     metadata: "compat_configs/bluetooth-compat-config/bluetooth-compat-config_meta.xml",
 }
 
+prebuilt_platform_compat_config {
+    name: "bluetoothapk-platform-compat-config",
+    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
+    use_source_config_var: {
+        config_namespace: "btservices_module",
+        var_name: "source_build",
+    },
+    visibility: ["//packages/modules/Bluetooth:__subpackages__"],
+    licenses: ["btservices-module-sdk_packages_apps_Bluetooth_license"],
+    metadata: "compat_configs/bluetoothapk-platform-compat-config/bluetoothapk-platform-compat-config_meta.xml",
+}
+
+prebuilt_platform_compat_config {
+    name: "framework-bluetooth-compat-config",
+    // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
+    use_source_config_var: {
+        config_namespace: "btservices_module",
+        var_name: "source_build",
+    },
+    visibility: ["//packages/modules/Bluetooth:__subpackages__"],
+    licenses: ["btservices-module-sdk_Android-Apache-2.0"],
+    metadata: "compat_configs/framework-bluetooth-compat-config/framework-bluetooth-compat-config_meta.xml",
+}
+
 java_sdk_library_import {
     name: "framework-bluetooth",
     // Do not prefer prebuilt if the Soong config variable "module_build_from_source" in namespace "ANDROID" is true.
@@ -123,6 +147,15 @@ license {
     visibility: ["//visibility:private"],
     license_kinds: ["SPDX-license-identifier-Apache-2.0"],
     license_text: ["licenses/build/soong/licenses/LICENSE"],
+}
+
+license {
+    name: "btservices-module-sdk_packages_apps_Bluetooth_license",
+    visibility: ["//visibility:private"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+        "SPDX-license-identifier-BSD",
+    ],
 }
 
 prebuilt_systemserverclasspath_fragment {
