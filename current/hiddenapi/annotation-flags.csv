@@ -15,6 +15,7 @@ Landroid/bluetooth/BluetoothAdapter;->listenUsingRfcommOn(IZZ)Landroid/bluetooth
 Landroid/bluetooth/BluetoothAdapter;->mService:Landroid/bluetooth/IBluetooth;,unsupported
 Landroid/bluetooth/BluetoothClass;-><init>(I)V,max-target-p
 Landroid/bluetooth/BluetoothCodecConfig;-><init>(IIIIIJJJJ)V,unsupported
+Landroid/bluetooth/BluetoothDevice;-><init>(Landroid/os/Parcel;)V,unsupported
 Landroid/bluetooth/BluetoothDevice;-><init>(Ljava/lang/String;)V,unsupported
 Landroid/bluetooth/BluetoothDevice;->ACTION_SDP_RECORD:Ljava/lang/String;,max-target-r
 Landroid/bluetooth/BluetoothDevice;->EXTRA_REASON:Ljava/lang/String;,unsupported

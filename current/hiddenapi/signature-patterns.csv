@@ -48,7 +48,9 @@ android/bluetooth/BluetoothLeBroadcastAssistantCallback
 android/bluetooth/BluetoothLeBroadcastChannel
 android/bluetooth/BluetoothLeBroadcastMetadata
 android/bluetooth/BluetoothLeBroadcastReceiveState
+android/bluetooth/BluetoothLeBroadcastSettings
 android/bluetooth/BluetoothLeBroadcastSubgroup
+android/bluetooth/BluetoothLeBroadcastSubgroupSettings
 android/bluetooth/BluetoothLeCall
 android/bluetooth/BluetoothLeCallControl
 android/bluetooth/BluetoothManager
@@ -61,9 +63,12 @@ android/bluetooth/BluetoothPbap
 android/bluetooth/BluetoothPbapClient
 android/bluetooth/BluetoothProfile
 android/bluetooth/BluetoothProfileConnector
+android/bluetooth/BluetoothQualityReport
 android/bluetooth/BluetoothSap
 android/bluetooth/BluetoothServerSocket
+android/bluetooth/BluetoothSinkAudioPolicy
 android/bluetooth/BluetoothSocket
+android/bluetooth/BluetoothSocketException
 android/bluetooth/BluetoothStatusCodes
 android/bluetooth/BluetoothUtils
 android/bluetooth/BluetoothUuid
@@ -111,7 +116,9 @@ android/bluetooth/IBluetoothPan
 android/bluetooth/IBluetoothPanCallback
 android/bluetooth/IBluetoothPbap
 android/bluetooth/IBluetoothPbapClient
+android/bluetooth/IBluetoothPreferredAudioProfilesCallback
 android/bluetooth/IBluetoothProfileServiceConnection
+android/bluetooth/IBluetoothQualityReportReadyCallback
 android/bluetooth/IBluetoothSap
 android/bluetooth/IBluetoothSocketManager
 android/bluetooth/IBluetoothStateChangeCallback
