@@ -1,14 +1,14 @@
 drops {
   android_build_drop {
-    build_id: "T1004113"
-    target: "train_build"
-    source_file: "mainline-sdks/for-Tiramisu-build/current/com.google.android.bluetooth/sdk/bluetooth-module-sdk-current.zip"
+    build_id: "9891625"
+    target: "mainline_modules-user"
+    source_file: "mainline-sdks/for-latest-build/current/com.google.android.btservices/sdk/btservices-module-sdk-current.zip"
   }
   dest_file: "current/current.zip"
   version: ""
   version_group: ""
   git_project: "platform/prebuilts/module_sdk/Bluetooth"
-  git_branch: "tm-dev"
+  git_branch: "tm-qpr-dev"
   transform: TRANSFORM_UNZIP
   transform_options {
   }
