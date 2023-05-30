@@ -1,7 +1,7 @@
 drops {
   android_build_drop {
-    build_id: "10100292"
-    target: "mainline_modules_sdks-user"
+    build_id: "T1006803"
+    target: "train_build"
     source_file: "mainline-sdks/for-UpsideDownCake-build/current/com.google.android.btservices/sdk/btservices-module-sdk-current.zip"
   }
   dest_file: "current/current.zip"
