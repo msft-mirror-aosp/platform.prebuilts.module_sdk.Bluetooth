@@ -6,6 +6,10 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+blueprint_package_includes {
+    match_all: ["com.android.mainline"]
+}
+
 prebuilt_bootclasspath_fragment {
     name: "com.android.btservices-bootclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "btservices_module" is true.
