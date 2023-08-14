@@ -204,6 +204,7 @@ Landroid/bluetooth/BluetoothAdapter;->finalize()V,core-platform-api,public-api,s
 Landroid/bluetooth/BluetoothAdapter;->generateLocalOobData(ILjava/util/concurrent/Executor;Landroid/bluetooth/BluetoothAdapter$OobDataCallback;)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->getActiveDevices(I)Ljava/util/List;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->getAddress()Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter;->getBluetoothClass()Landroid/bluetooth/BluetoothClass;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothAdapter;->getBluetoothHciSnoopLoggingMode()I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->getBluetoothLeAdvertiser()Landroid/bluetooth/le/BluetoothLeAdvertiser;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->getBluetoothLeScanner()Landroid/bluetooth/le/BluetoothLeScanner;,public-api,sdk,system-api,test-api
@@ -280,6 +281,7 @@ Landroid/bluetooth/BluetoothAdapter;->requestControllerActivityEnergyInfo(Ljava/
 Landroid/bluetooth/BluetoothAdapter;->retrieveConnectedRfcommSocket(Ljava/util/UUID;)Landroid/bluetooth/BluetoothSocket;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->sAdapter:Landroid/bluetooth/BluetoothAdapter;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothAdapter;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;I)Z,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter;->setBluetoothClass(Landroid/bluetooth/BluetoothClass;)Z,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothAdapter;->setBluetoothHciSnoopLoggingMode(I)I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->setDiscoverableTimeout(Ljava/time/Duration;)I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->setName(Ljava/lang/String;)Z,public-api,sdk,system-api,test-api
@@ -739,6 +741,7 @@ Landroid/bluetooth/BluetoothClass;->describeContents()I,public-api,sdk,system-ap
 Landroid/bluetooth/BluetoothClass;->doesClassMatch(I)Z,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothClass;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothClass;->getClassOfDevice()I,lo-prio,max-target-o
+Landroid/bluetooth/BluetoothClass;->getClassOfDeviceBytes()[B,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothClass;->getDeviceClass()I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothClass;->getMajorDeviceClass()I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothClass;->hasService(I)Z,public-api,sdk,system-api,test-api
@@ -2977,6 +2980,7 @@ Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_fetchRemoteUuids:I,lo-prio,max-
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_getAdapterConnectionState:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_getAddress:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_getBatteryLevel:I,lo-prio,max-target-o
+Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_getBluetoothClass:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_getBondState:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_getBondedDevices:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_getConnectionState:I,lo-prio,max-target-o
@@ -3016,6 +3020,7 @@ Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_removeBond:I,lo-prio,max-target
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_reportActivityInfo:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_requestActivityInfo:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_sdpSearch:I,lo-prio,max-target-o
+Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_setBluetoothClass:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_setDiscoverableTimeout:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_setMessageAccessPermission:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_setName:I,lo-prio,max-target-o
