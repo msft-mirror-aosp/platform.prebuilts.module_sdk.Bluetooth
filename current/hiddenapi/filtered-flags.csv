@@ -3009,8 +3009,6 @@ Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_isLePeriodicAdvertisingSupporte
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_isMultiAdvertisementSupported:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_isOffloadedFilteringSupported:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_isOffloadedScanBatchingSupported:I,lo-prio,max-target-o
-Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_onBrEdrDown:I,lo-prio,max-target-o
-Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_onLeServiceUp:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_registerCallback:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_removeBond:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetooth$Stub;->TRANSACTION_reportActivityInfo:I,lo-prio,max-target-o
@@ -3508,7 +3506,6 @@ Landroid/bluetooth/IBluetoothLeCallControlCallback$Stub;->onTransact(ILandroid/o
 Landroid/bluetooth/IBluetoothManager$Default;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/IBluetoothManager$Stub$Proxy;-><init>(Landroid/os/IBinder;)V,unsupported
 Landroid/bluetooth/IBluetoothManager$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
-Landroid/bluetooth/IBluetoothManager$Stub$Proxy;->getBluetoothGatt()Landroid/bluetooth/IBluetoothGatt;,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManager$Stub$Proxy;->getInterfaceDescriptor()Ljava/lang/String;,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManager$Stub$Proxy;->getState()I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManager$Stub$Proxy;->isBleAppPresent()Z,lo-prio,max-target-o
@@ -3526,7 +3523,6 @@ Landroid/bluetooth/IBluetoothManager$Stub;->TRANSACTION_disable:I,lo-prio,max-ta
 Landroid/bluetooth/IBluetoothManager$Stub;->TRANSACTION_enable:I,lo-prio,max-target-r
 Landroid/bluetooth/IBluetoothManager$Stub;->TRANSACTION_enableNoAutoConnect:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManager$Stub;->TRANSACTION_getAddress:I,lo-prio,max-target-o
-Landroid/bluetooth/IBluetoothManager$Stub;->TRANSACTION_getBluetoothGatt:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManager$Stub;->TRANSACTION_getName:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManager$Stub;->TRANSACTION_getState:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManager$Stub;->TRANSACTION_isBleAppPresent:I,lo-prio,max-target-o
@@ -3552,18 +3548,15 @@ Landroid/bluetooth/IBluetoothManagerCallback$Stub$Proxy;->getInterfaceDescriptor
 Landroid/bluetooth/IBluetoothManagerCallback$Stub$Proxy;->mRemote:Landroid/os/IBinder;,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManagerCallback$Stub$Proxy;->onBluetoothServiceDown()V,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManagerCallback$Stub$Proxy;->onBluetoothServiceUp(Landroid/bluetooth/IBluetooth;)V,lo-prio,max-target-o
-Landroid/bluetooth/IBluetoothManagerCallback$Stub$Proxy;->onBrEdrDown()V,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManagerCallback$Stub;-><init>()V,unsupported
 Landroid/bluetooth/IBluetoothManagerCallback$Stub;->DESCRIPTOR:Ljava/lang/String;,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManagerCallback$Stub;->TRANSACTION_onBluetoothServiceDown:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManagerCallback$Stub;->TRANSACTION_onBluetoothServiceUp:I,lo-prio,max-target-o
-Landroid/bluetooth/IBluetoothManagerCallback$Stub;->TRANSACTION_onBrEdrDown:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManagerCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/IBluetoothManagerCallback$Stub;->asInterface(Landroid/os/IBinder;)Landroid/bluetooth/IBluetoothManagerCallback;,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManagerCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,sdk,system-api,test-api
 Landroid/bluetooth/IBluetoothManagerCallback;->onBluetoothServiceDown()V,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothManagerCallback;->onBluetoothServiceUp(Landroid/bluetooth/IBluetooth;)V,lo-prio,max-target-o
-Landroid/bluetooth/IBluetoothManagerCallback;->onBrEdrDown()V,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothMap$Default;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/IBluetoothMap$Stub$Proxy;-><init>(Landroid/os/IBinder;)V,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothMap$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,sdk,system-api,test-api
@@ -4126,7 +4119,6 @@ Landroid/bluetooth/le/BluetoothLeAdvertiser;->byteLength([B)I,lo-prio,max-target
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->cleanup()V,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->mAdvertisingSets:Ljava/util/Map;,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;,lo-prio,max-target-o
-Landroid/bluetooth/le/BluetoothLeAdvertiser;->mBluetoothManager:Landroid/bluetooth/IBluetoothManager;,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->mCallbackWrappers:Ljava/util/Map;,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->mHandler:Landroid/os/Handler;,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->mLegacyAdvertisers:Ljava/util/Map;,lo-prio,max-target-o
@@ -4176,7 +4168,6 @@ Landroid/bluetooth/le/BluetoothLeScanner;->isHardwareResourcesAvailableForScan(L
 Landroid/bluetooth/le/BluetoothLeScanner;->isSettingsAndFilterComboAllowed(Landroid/bluetooth/le/ScanSettings;Ljava/util/List;)Z,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeScanner;->isSettingsConfigAllowedForScan(Landroid/bluetooth/le/ScanSettings;)Z,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeScanner;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;,lo-prio,max-target-o
-Landroid/bluetooth/le/BluetoothLeScanner;->mBluetoothManager:Landroid/bluetooth/IBluetoothManager;,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeScanner;->mHandler:Landroid/os/Handler;,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeScanner;->mLeScanClients:Ljava/util/Map;,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeScanner;->postCallbackError(Landroid/bluetooth/le/ScanCallback;I)V,lo-prio,max-target-o
@@ -4368,7 +4359,6 @@ Landroid/bluetooth/le/PeriodicAdvertisingManager;->TAG:Ljava/lang/String;,lo-pri
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->TIMEOUT_MAX:I,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->TIMEOUT_MIN:I,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;,lo-prio,max-target-o
-Landroid/bluetooth/le/PeriodicAdvertisingManager;->mBluetoothManager:Landroid/bluetooth/IBluetoothManager;,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->mCallbackWrappers:Ljava/util/Map;,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->registerSync(Landroid/bluetooth/le/ScanResult;IILandroid/bluetooth/le/PeriodicAdvertisingCallback;)V,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->registerSync(Landroid/bluetooth/le/ScanResult;IILandroid/bluetooth/le/PeriodicAdvertisingCallback;Landroid/os/Handler;)V,lo-prio,max-target-o
