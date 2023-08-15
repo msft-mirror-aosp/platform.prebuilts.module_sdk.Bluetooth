@@ -13,7 +13,7 @@ Landroid/bluetooth/BluetoothAdapter;->factoryReset()Z,packages/modules/Bluetooth
 Landroid/bluetooth/BluetoothAdapter;->getUuids()[Landroid/os/ParcelUuid;,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothAdapter.java,1731,5,1731,25,
 Landroid/bluetooth/BluetoothAdapter;->listenUsingRfcommOn(IZZ)Landroid/bluetooth/BluetoothServerSocket;,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothAdapter.java,3176,5,3176,25,
 Landroid/bluetooth/BluetoothAdapter;->listenUsingEncryptedRfcommWithServiceRecord(Ljava/lang/String;Ljava/util/UUID;)Landroid/bluetooth/BluetoothServerSocket;,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothAdapter.java,3453,5,3453,88,maxTargetSdk=30&trackingBug=170729553L
-Landroid/bluetooth/BluetoothAdapter;->getBluetoothManager()Landroid/bluetooth/IBluetoothManager;,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothAdapter.java,4199,5,4199,25,
+Landroid/bluetooth/BluetoothAdapter;->getBluetoothManager()Landroid/bluetooth/IBluetoothManager;,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothAdapter.java,4176,5,4176,25,
 Landroid/bluetooth/BluetoothClass;-><init>(I)V,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothClass.java,66,5,66,88,maxTargetSdk=28&trackingBug=115609023L
 Landroid/bluetooth/BluetoothCodecConfig;-><init>(IIIIIJJJJ)V,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothCodecConfig.java,252,5,252,25,
 Landroid/bluetooth/BluetoothDevice;->EXTRA_REASON:Ljava/lang/String;,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothDevice.java,418,5,418,25,
