@@ -2237,6 +2237,7 @@ Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->getSourceAdvertisingSid()I
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->getSourceDevice()Landroid/bluetooth/BluetoothDevice;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->getSourceId()I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->getSubgroupMetadata()Ljava/util/List;,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastSettings$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastSettings$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
