@@ -33,9 +33,9 @@ Landroid/bluetooth/BluetoothGatt;->mAutoConnect:Z,packages/modules/Bluetooth/fra
 Landroid/bluetooth/BluetoothGatt;->mAuthRetryState:I,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGatt.java,72,5,72,88,maxTargetSdk=28&trackingBug=115609023L
 Landroid/bluetooth/BluetoothGatt;->mDeviceBusy:Ljava/lang/Boolean;,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGatt.java,77,5,77,88,maxTargetSdk=30&trackingBug=170729553L
 Landroid/bluetooth/BluetoothGatt;->mTransport:I,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGatt.java,79,5,79,88,maxTargetSdk=30&trackingBug=170729553L
-Landroid/bluetooth/BluetoothGatt;->unregisterApp()V,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGatt.java,1003,5,1003,25,
-Landroid/bluetooth/BluetoothGatt;->connect(Ljava/lang/Boolean;Landroid/bluetooth/BluetoothGattCallback;Landroid/os/Handler;)Z,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGatt.java,1041,5,1041,88,maxTargetSdk=30&trackingBug=170729553L
-Landroid/bluetooth/BluetoothGatt;->refresh()Z,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGatt.java,1800,5,1800,25,
+Landroid/bluetooth/BluetoothGatt;->unregisterApp()V,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGatt.java,1005,5,1005,25,
+Landroid/bluetooth/BluetoothGatt;->connect(Ljava/lang/Boolean;Landroid/bluetooth/BluetoothGattCallback;Landroid/os/Handler;)Z,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGatt.java,1043,5,1043,88,maxTargetSdk=30&trackingBug=170729553L
+Landroid/bluetooth/BluetoothGatt;->refresh()Z,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGatt.java,1806,5,1806,25,
 Landroid/bluetooth/BluetoothGattCharacteristic;->mInstance:I,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGattCharacteristic.java,199,5,199,25,
 Landroid/bluetooth/BluetoothGattCharacteristic;->mService:Landroid/bluetooth/BluetoothGattService;,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGattCharacteristic.java,236,5,236,25,
 Landroid/bluetooth/BluetoothGattCharacteristic;->setService(Landroid/bluetooth/BluetoothGattService;)V,packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothGattCharacteristic.java,397,5,397,25,
