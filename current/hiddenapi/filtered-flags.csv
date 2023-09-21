@@ -2115,6 +2115,19 @@ Landroid/bluetooth/BluetoothLeBroadcast;->stopBroadcast(I)V,sdk,system-api,test-
 Landroid/bluetooth/BluetoothLeBroadcast;->unregisterCallback(Landroid/bluetooth/BluetoothLeBroadcast$Callback;)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcast;->updateBroadcast(ILandroid/bluetooth/BluetoothLeAudioContentMetadata;)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcast;->updateBroadcast(ILandroid/bluetooth/BluetoothLeBroadcastSettings;)V,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda10;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda11;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda5;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda6;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda7;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda8;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$1$$ExternalSyntheticLambda9;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastAssistant$BroadcastLeAssistantServiceListener;->onServiceConnected(ILandroid/bluetooth/BluetoothProfile;)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastAssistant$Callback;->onReceiveStateChanged(Landroid/bluetooth/BluetoothDevice;ILandroid/bluetooth/BluetoothLeBroadcastReceiveState;)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastAssistant$Callback;->onSearchStartFailed(I)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastAssistant$Callback;->onSearchStarted(I)V,sdk,system-api,test-api
@@ -2237,6 +2250,7 @@ Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->getSourceAdvertisingSid()I
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->getSourceDevice()Landroid/bluetooth/BluetoothDevice;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->getSourceId()I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->getSubgroupMetadata()Ljava/util/List;,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastSettings$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastSettings$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
@@ -3192,7 +3206,6 @@ Landroid/bluetooth/IBluetoothGatt$Stub;->TRANSACTION_startScanForIntent:I,lo-pri
 Landroid/bluetooth/IBluetoothGatt$Stub;->TRANSACTION_stopAdvertisingSet:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothGatt$Stub;->TRANSACTION_stopScan:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothGatt$Stub;->TRANSACTION_stopScanForIntent:I,lo-prio,max-target-o
-Landroid/bluetooth/IBluetoothGatt$Stub;->TRANSACTION_unregAll:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothGatt$Stub;->TRANSACTION_unregisterClient:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothGatt$Stub;->TRANSACTION_unregisterScanner:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothGatt$Stub;->TRANSACTION_unregisterServer:I,lo-prio,max-target-o
