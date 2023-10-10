@@ -34,7 +34,6 @@ Landroid/bluetooth/BluetoothA2dp;->getDevicesMatchingConnectionStates([I)Ljava/u
 Landroid/bluetooth/BluetoothA2dp;->getDynamicBufferSupport()I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->getPriority(Landroid/bluetooth/BluetoothDevice;)I,max-target-p
 Landroid/bluetooth/BluetoothA2dp;->isA2dpPlaying(Landroid/bluetooth/BluetoothDevice;)Z,public-api,sdk,system-api,test-api
-Landroid/bluetooth/BluetoothA2dp;->isAvrcpAbsoluteVolumeSupported()Z,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothA2dp;->isEnabled()Z,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothA2dp;->isOptionalCodecsEnabled(Landroid/bluetooth/BluetoothDevice;)I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->isOptionalCodecsSupported(Landroid/bluetooth/BluetoothDevice;)I,sdk,system-api,test-api
@@ -168,7 +167,6 @@ Landroid/bluetooth/BluetoothAdapter;->EXTRA_PREVIOUS_STATE:Ljava/lang/String;,pu
 Landroid/bluetooth/BluetoothAdapter;->EXTRA_RFCOMM_LISTENER_ID:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->EXTRA_SCAN_MODE:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->EXTRA_STATE:Ljava/lang/String;,public-api,sdk,system-api,test-api
-Landroid/bluetooth/BluetoothAdapter;->LE_PSM_CHARACTERISTIC_UUID:Ljava/util/UUID;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothAdapter;->SCAN_MODE_CONNECTABLE:I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->SCAN_MODE_CONNECTABLE_DISCOVERABLE:I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->SCAN_MODE_NONE:I,public-api,sdk,system-api,test-api
@@ -1404,19 +1402,23 @@ Landroid/bluetooth/BluetoothHapClient$Callback;->onSetPresetNameFailed(Landroid/
 Landroid/bluetooth/BluetoothHapClient$Callback;->onSetPresetNameForGroupFailed(II)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient$HapClientServiceListener;->onServiceConnected(ILandroid/bluetooth/BluetoothProfile;)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->ACTION_HAP_CONNECTION_STATE_CHANGED:Ljava/lang/String;,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothHapClient;->PRESET_INDEX_UNAVAILABLE:I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->TYPE_BANDED:I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->TYPE_BINAURAL:I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->TYPE_MONAURAL:I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->TYPE_RFU:I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->close()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->finalize()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothHapClient;->getActivePresetIndex(Landroid/bluetooth/BluetoothDevice;)I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->getActivePresetInfo(Landroid/bluetooth/BluetoothDevice;)Landroid/bluetooth/BluetoothHapPresetInfo;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->getAllPresetInfo(Landroid/bluetooth/BluetoothDevice;)Ljava/util/List;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->getConnectedDevices()Ljava/util/List;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->getConnectionPolicy(Landroid/bluetooth/BluetoothDevice;)I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->getConnectionState(Landroid/bluetooth/BluetoothDevice;)I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->getDevicesMatchingConnectionStates([I)Ljava/util/List;,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothHapClient;->getHapGroup(Landroid/bluetooth/BluetoothDevice;)I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->getHearingAidType(Landroid/bluetooth/BluetoothDevice;)I,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothHapClient;->getPresetInfo(Landroid/bluetooth/BluetoothDevice;I)Landroid/bluetooth/BluetoothHapPresetInfo;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->registerCallback(Ljava/util/concurrent/Executor;Landroid/bluetooth/BluetoothHapClient$Callback;)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->selectPreset(Landroid/bluetooth/BluetoothDevice;I)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->selectPresetForGroup(II)V,sdk,system-api,test-api
@@ -1427,6 +1429,10 @@ Landroid/bluetooth/BluetoothHapClient;->supportsDynamicPresets(Landroid/bluetoot
 Landroid/bluetooth/BluetoothHapClient;->supportsIndependentPresets(Landroid/bluetooth/BluetoothDevice;)Z,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->supportsSynchronizedPresets(Landroid/bluetooth/BluetoothDevice;)Z,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->supportsWritablePresets(Landroid/bluetooth/BluetoothDevice;)Z,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothHapClient;->switchToNextPreset(Landroid/bluetooth/BluetoothDevice;)V,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothHapClient;->switchToNextPresetForGroup(I)V,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothHapClient;->switchToPreviousPreset(Landroid/bluetooth/BluetoothDevice;)V,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothHapClient;->switchToPreviousPresetForGroup(I)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapClient;->unregisterCallback(Landroid/bluetooth/BluetoothHapClient$Callback;)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapPresetInfo$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHapPresetInfo$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
@@ -2945,6 +2951,7 @@ Landroid/bluetooth/BluetoothUuid;->parseUuidFrom([B)Landroid/os/ParcelUuid;,sdk,
 Landroid/bluetooth/BluetoothUuid;->uuidToBytes(Landroid/os/ParcelUuid;)[B,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothVolumeControl$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothVolumeControl$Callback;->onVolumeOffsetChanged(Landroid/bluetooth/BluetoothDevice;I)V,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothVolumeControl$VolumeControlServiceListener;->onServiceConnected(ILandroid/bluetooth/BluetoothProfile;)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothVolumeControl;->ACTION_CONNECTION_STATE_CHANGED:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothVolumeControl;->close()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothVolumeControl;->finalize()V,core-platform-api,public-api,sdk,system-api,test-api
@@ -3060,7 +3067,6 @@ Landroid/bluetooth/IBluetoothA2dp$Stub;->TRANSACTION_getConnectedDevices:I,lo-pr
 Landroid/bluetooth/IBluetoothA2dp$Stub;->TRANSACTION_getConnectionState:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothA2dp$Stub;->TRANSACTION_getDevicesMatchingConnectionStates:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothA2dp$Stub;->TRANSACTION_isA2dpPlaying:I,lo-prio,max-target-o
-Landroid/bluetooth/IBluetoothA2dp$Stub;->TRANSACTION_isAvrcpAbsoluteVolumeSupported:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothA2dp$Stub;->TRANSACTION_setActiveDevice:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothA2dp$Stub;->TRANSACTION_setAvrcpAbsoluteVolume:I,lo-prio,max-target-o
 Landroid/bluetooth/IBluetoothA2dp$Stub;->TRANSACTION_setCodecConfigPreference:I,lo-prio,max-target-o
