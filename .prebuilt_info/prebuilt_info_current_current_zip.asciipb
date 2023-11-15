@@ -1,6 +1,6 @@
 drops {
   android_build_drop {
-    build_id: "10862217"
+    build_id: "11059152"
     target: "mainline_modules_sdks-user"
     source_file: "mainline-sdks/for-UpsideDownCake-build/current/com.google.android.btservices/sdk/btservices-module-sdk-current.zip"
   }
@@ -8,7 +8,7 @@ drops {
   version: ""
   version_group: ""
   git_project: "platform/prebuilts/module_sdk/Bluetooth"
-  git_branch: "udc-qpr-dev"
+  git_branch: "udc-qpr1-release"
   transform: TRANSFORM_UNZIP
   transform_options {
   }
