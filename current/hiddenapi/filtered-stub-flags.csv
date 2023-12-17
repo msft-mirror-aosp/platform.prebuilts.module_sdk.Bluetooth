@@ -23,6 +23,7 @@ Landroid/bluetooth/BluetoothA2dp;->getConnectionPolicy(Landroid/bluetooth/Blueto
 Landroid/bluetooth/BluetoothA2dp;->getConnectionState(Landroid/bluetooth/BluetoothDevice;)I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->getDevicesMatchingConnectionStates([I)Ljava/util/List;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->getDynamicBufferSupport()I,system-api,test-api
+Landroid/bluetooth/BluetoothA2dp;->getSupportedCodecTypes()Ljava/util/List;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->isA2dpPlaying(Landroid/bluetooth/BluetoothDevice;)Z,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->isOptionalCodecsEnabled(Landroid/bluetooth/BluetoothDevice;)I,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->isOptionalCodecsSupported(Landroid/bluetooth/BluetoothDevice;)I,system-api,test-api
@@ -585,6 +586,7 @@ Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecSpecific2(J)Landroid/b
 Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecSpecific3(J)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecSpecific4(J)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecType(I)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecType(Landroid/bluetooth/BluetoothCodecType;)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig$Builder;->setSampleRate(I)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->BITS_PER_SAMPLE_16:I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->BITS_PER_SAMPLE_24:I,public-api,system-api,test-api
@@ -622,6 +624,7 @@ Landroid/bluetooth/BluetoothCodecConfig;->getCodecSpecific2()J,public-api,system
 Landroid/bluetooth/BluetoothCodecConfig;->getCodecSpecific3()J,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->getCodecSpecific4()J,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->getCodecType()I,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecConfig;->getExtendedCodecType()Landroid/bluetooth/BluetoothCodecType;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->getSampleRate()I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->isMandatoryCodec()Z,public-api,system-api,test-api
@@ -645,6 +648,25 @@ Landroid/bluetooth/BluetoothCodecStatus;->hashCode()I,core-platform-api,public-a
 Landroid/bluetooth/BluetoothCodecStatus;->isCodecConfigSelectable(Landroid/bluetooth/BluetoothCodecConfig;)Z,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecStatus;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCodecStatus;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;-><init>(IJLjava/lang/String;)V,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_AAC:J,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_APTX:J,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_APTX_HD:J,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_LDAC:J,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_OPUS:J,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_SBC:J,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CREATOR:Landroid/os/Parcelable$Creator;,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->createFromType(I)Landroid/bluetooth/BluetoothCodecType;,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->describeContents()I,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->getCodecId()J,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->getCodecName()Ljava/lang/String;,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->isMandatoryCodec()Z,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCsipSetCoordinator$BluetoothCsipSetCoordinatorLockCallbackDelegate$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothCsipSetCoordinator$ClientLockCallback;->onGroupLockSet(IIZ)V,system-api,test-api
 Landroid/bluetooth/BluetoothCsipSetCoordinator;->ACTION_CSIS_CONNECTION_STATE_CHANGED:Ljava/lang/String;,public-api,system-api,test-api
@@ -2944,6 +2966,7 @@ Landroid/bluetooth/le/TransportBlock;->getOrgId()I,public-api,system-api,test-ap
 Landroid/bluetooth/le/TransportBlock;->getTdsFlags()I,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->getTransportData()[B,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->getTransportDataLength()I,public-api,system-api,test-api
+Landroid/bluetooth/le/TransportBlock;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->toByteArray()[B,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->totalBytes()I,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
@@ -2976,6 +2999,7 @@ Landroid/bluetooth/le/TransportDiscoveryData;->describeContents()I,public-api,sy
 Landroid/bluetooth/le/TransportDiscoveryData;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->getTransportBlocks()Ljava/util/List;,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->getTransportDataType()I,public-api,system-api,test-api
+Landroid/bluetooth/le/TransportDiscoveryData;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->toByteArray()[B,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->totalBytes()I,public-api,system-api,test-api
