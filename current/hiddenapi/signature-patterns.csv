@@ -11,6 +11,7 @@ android/bluetooth/BluetoothAvrcpPlayerSettings
 android/bluetooth/BluetoothClass
 android/bluetooth/BluetoothCodecConfig
 android/bluetooth/BluetoothCodecStatus
+android/bluetooth/BluetoothCodecType
 android/bluetooth/BluetoothCsipSetCoordinator
 android/bluetooth/BluetoothDevice
 android/bluetooth/BluetoothDevicePicker
