@@ -33,6 +33,7 @@ Landroid/bluetooth/BluetoothA2dp;->getConnectionState(Landroid/bluetooth/Bluetoo
 Landroid/bluetooth/BluetoothA2dp;->getDevicesMatchingConnectionStates([I)Ljava/util/List;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->getDynamicBufferSupport()I,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->getPriority(Landroid/bluetooth/BluetoothDevice;)I,max-target-p
+Landroid/bluetooth/BluetoothA2dp;->getSupportedCodecTypes()Ljava/util/List;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->isA2dpPlaying(Landroid/bluetooth/BluetoothDevice;)Z,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->isEnabled()Z,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothA2dp;->isOptionalCodecsEnabled(Landroid/bluetooth/BluetoothDevice;)I,sdk,system-api,test-api
@@ -778,6 +779,7 @@ Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecSpecific2(J)Landroid/b
 Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecSpecific3(J)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecSpecific4(J)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecType(I)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecConfig$Builder;->setCodecType(Landroid/bluetooth/BluetoothCodecType;)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig$Builder;->setSampleRate(I)Landroid/bluetooth/BluetoothCodecConfig$Builder;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;-><init>(IIIIIJJJJ)V,unsupported
 Landroid/bluetooth/BluetoothCodecConfig;->BITS_PER_SAMPLE_16:I,public-api,sdk,system-api,test-api
@@ -817,6 +819,7 @@ Landroid/bluetooth/BluetoothCodecConfig;->getCodecSpecific2()J,public-api,sdk,sy
 Landroid/bluetooth/BluetoothCodecConfig;->getCodecSpecific3()J,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->getCodecSpecific4()J,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->getCodecType()I,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecConfig;->getExtendedCodecType()Landroid/bluetooth/BluetoothCodecType;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->getSampleRate()I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecConfig;->isMandatoryCodec()Z,public-api,sdk,system-api,test-api
@@ -827,7 +830,6 @@ Landroid/bluetooth/BluetoothCodecConfig;->mCodecSpecific1:J,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothCodecConfig;->mCodecSpecific2:J,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothCodecConfig;->mCodecSpecific3:J,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothCodecConfig;->mCodecSpecific4:J,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothCodecConfig;->mCodecType:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothCodecConfig;->mSampleRate:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothCodecConfig;->sameAudioFeedingParameters(Landroid/bluetooth/BluetoothCodecConfig;)Z,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothCodecConfig;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
@@ -851,6 +853,25 @@ Landroid/bluetooth/BluetoothCodecStatus;->isCodecConfigSelectable(Landroid/bluet
 Landroid/bluetooth/BluetoothCodecStatus;->mCodecConfig:Landroid/bluetooth/BluetoothCodecConfig;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothCodecStatus;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCodecStatus;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType$1;->newArray(I)[Ljava/lang/Object;,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;-><init>(IJLjava/lang/String;)V,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_AAC:J,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_APTX:J,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_APTX_HD:J,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_LDAC:J,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_OPUS:J,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CODEC_ID_SBC:J,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->CREATOR:Landroid/os/Parcelable$Creator;,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->createFromType(I)Landroid/bluetooth/BluetoothCodecType;,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->describeContents()I,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->getCodecId()J,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->getCodecName()Ljava/lang/String;,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->isMandatoryCodec()Z,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/BluetoothCodecType;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCsipSetCoordinator$BluetoothCsipSetCoordinatorLockCallbackDelegate$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCsipSetCoordinator$ClientLockCallback;->onGroupLockSet(IIZ)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothCsipSetCoordinator;->ACTION_CSIS_CONNECTION_STATE_CHANGED:Ljava/lang/String;,public-api,sdk,system-api,test-api
@@ -1114,7 +1135,6 @@ Landroid/bluetooth/BluetoothGatt;->AUTHENTICATION_NONE:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothGatt;->AUTHENTICATION_NO_MITM:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothGatt;->AUTH_RETRY_STATE_IDLE:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothGatt;->AUTH_RETRY_STATE_MITM:I,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothGatt;->AUTH_RETRY_STATE_NO_MITM:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothGatt;->CONNECTION_PRIORITY_BALANCED:I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothGatt;->CONNECTION_PRIORITY_DCK:I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothGatt;->CONNECTION_PRIORITY_HIGH:I,public-api,sdk,system-api,test-api
@@ -1122,7 +1142,6 @@ Landroid/bluetooth/BluetoothGatt;->CONNECTION_PRIORITY_LOW_POWER:I,public-api,sd
 Landroid/bluetooth/BluetoothGatt;->CONN_STATE_CLOSED:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothGatt;->CONN_STATE_CONNECTED:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothGatt;->CONN_STATE_CONNECTING:I,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothGatt;->CONN_STATE_DISCONNECTING:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothGatt;->CONN_STATE_IDLE:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothGatt;->DBG:Z,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothGatt;->GATT_CONNECTION_CONGESTED:I,public-api,sdk,system-api,test-api
@@ -1582,7 +1601,6 @@ Landroid/bluetooth/BluetoothHeadsetClient;->CME_NOT_FOUND:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothHeadsetClient;->CME_NOT_SUPPORTED_FOR_VOIP:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothHeadsetClient;->CME_NO_CONNECTION_TO_PHONE:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothHeadsetClient;->CME_NO_NETWORK_SERVICE:I,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothHeadsetClient;->CME_NO_SIMULTANOUS_VOIP_CS_CALLS:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothHeadsetClient;->CME_OPERATION_NOT_ALLOWED:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothHeadsetClient;->CME_OPERATION_NOT_SUPPORTED:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothHeadsetClient;->CME_PHFSIM_PIN_REQUIRED:I,lo-prio,max-target-o
@@ -2778,9 +2796,6 @@ Landroid/bluetooth/BluetoothSocket$SocketState;->INIT:Landroid/bluetooth/Bluetoo
 Landroid/bluetooth/BluetoothSocket$SocketState;->LISTENING:Landroid/bluetooth/BluetoothSocket$SocketState;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket$SocketState;->valueOf(Ljava/lang/String;)Landroid/bluetooth/BluetoothSocket$SocketState;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket$SocketState;->values()[Landroid/bluetooth/BluetoothSocket$SocketState;,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothSocket;-><init>(IIZZLandroid/bluetooth/BluetoothDevice;ILandroid/os/ParcelUuid;)V,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothSocket;-><init>(IIZZLandroid/bluetooth/BluetoothDevice;ILandroid/os/ParcelUuid;ZZ)V,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothSocket;-><init>(IIZZLjava/lang/String;I)V,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;-><init>(Landroid/bluetooth/BluetoothSocket;)V,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->BTSOCK_FLAG_NO_SDP:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->DBG:Z,lo-prio,max-target-o
@@ -2788,7 +2803,6 @@ Landroid/bluetooth/BluetoothSocket;->EADDRINUSE:I,max-target-r
 Landroid/bluetooth/BluetoothSocket;->EBADFD:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->MAX_L2CAP_PACKAGE_SIZE:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->MAX_RFCOMM_CHANNEL:I,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothSocket;->PROXY_CONNECTION_TIMEOUT:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->SEC_FLAG_AUTH:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->SEC_FLAG_AUTH_16_DIGIT:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->SEC_FLAG_AUTH_MITM:I,lo-prio,max-target-o
@@ -2826,7 +2840,6 @@ Landroid/bluetooth/BluetoothSocket;->mAuthMitm:Z,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->mDevice:Landroid/bluetooth/BluetoothDevice;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->mEncrypt:Z,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->mExcludeSdp:Z,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothSocket;->mFd:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->mInputStream:Landroid/bluetooth/BluetoothInputStream;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->mL2capBuffer:Ljava/nio/ByteBuffer;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->mMaxRxPacketSize:I,lo-prio,max-target-o
@@ -4116,7 +4129,6 @@ Landroid/bluetooth/le/AdvertisingSetParameters;->INTERVAL_LOW:I,public-api,sdk,s
 Landroid/bluetooth/le/AdvertisingSetParameters;->INTERVAL_MAX:I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/AdvertisingSetParameters;->INTERVAL_MEDIUM:I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/AdvertisingSetParameters;->INTERVAL_MIN:I,public-api,sdk,system-api,test-api
-Landroid/bluetooth/le/AdvertisingSetParameters;->LIMITED_ADVERTISING_MAX_MILLIS:I,lo-prio,max-target-o
 Landroid/bluetooth/le/AdvertisingSetParameters;->TX_POWER_HIGH:I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/AdvertisingSetParameters;->TX_POWER_LOW:I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/AdvertisingSetParameters;->TX_POWER_MAX:I,public-api,sdk,system-api,test-api
@@ -4163,7 +4175,6 @@ Landroid/bluetooth/le/BluetoothLeAdvertiser$4;->run()V,core-platform-api,public-
 Landroid/bluetooth/le/BluetoothLeAdvertiser$5;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->FLAGS_FIELD_BYTES:I,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->MANUFACTURER_SPECIFIC_DATA_LENGTH:I,lo-prio,max-target-o
-Landroid/bluetooth/le/BluetoothLeAdvertiser;->MAX_ADVERTISING_DATA_BYTES:I,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->MAX_LEGACY_ADVERTISING_DATA_BYTES:I,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->OVERHEAD_BYTES_PER_FIELD:I,lo-prio,max-target-o
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->TAG:Ljava/lang/String;,lo-prio,max-target-o
@@ -4406,12 +4417,10 @@ Landroid/bluetooth/le/PeriodicAdvertisingManager$1$4;->run()V,core-platform-api,
 Landroid/bluetooth/le/PeriodicAdvertisingManager$1$5;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->SKIP_MAX:I,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->SKIP_MIN:I,lo-prio,max-target-o
-Landroid/bluetooth/le/PeriodicAdvertisingManager;->SYNC_STARTING:I,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->TAG:Ljava/lang/String;,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->TIMEOUT_MAX:I,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->TIMEOUT_MIN:I,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->mBluetoothAdapter:Landroid/bluetooth/BluetoothAdapter;,lo-prio,max-target-o
-Landroid/bluetooth/le/PeriodicAdvertisingManager;->mCallbackWrappers:Ljava/util/Map;,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->registerSync(Landroid/bluetooth/le/ScanResult;IILandroid/bluetooth/le/PeriodicAdvertisingCallback;)V,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->registerSync(Landroid/bluetooth/le/ScanResult;IILandroid/bluetooth/le/PeriodicAdvertisingCallback;Landroid/os/Handler;)V,lo-prio,max-target-o
 Landroid/bluetooth/le/PeriodicAdvertisingManager;->unregisterSync(Landroid/bluetooth/le/PeriodicAdvertisingCallback;)V,lo-prio,max-target-o
@@ -4738,6 +4747,7 @@ Landroid/bluetooth/le/TransportBlock;->getOrgId()I,public-api,sdk,system-api,tes
 Landroid/bluetooth/le/TransportBlock;->getTdsFlags()I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->getTransportData()[B,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->getTransportDataLength()I,public-api,sdk,system-api,test-api
+Landroid/bluetooth/le/TransportBlock;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->toByteArray()[B,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->totalBytes()I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportBlock;->writeToParcel(Landroid/os/Parcel;I)V,public-api,sdk,system-api,test-api
@@ -4770,6 +4780,7 @@ Landroid/bluetooth/le/TransportDiscoveryData;->describeContents()I,public-api,sd
 Landroid/bluetooth/le/TransportDiscoveryData;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->getTransportBlocks()Ljava/util/List;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->getTransportDataType()I,public-api,sdk,system-api,test-api
+Landroid/bluetooth/le/TransportDiscoveryData;->hashCode()I,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->toByteArray()[B,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/TransportDiscoveryData;->totalBytes()I,public-api,sdk,system-api,test-api
