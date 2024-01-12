@@ -63,7 +63,6 @@ android/bluetooth/BluetoothPan
 android/bluetooth/BluetoothPbap
 android/bluetooth/BluetoothPbapClient
 android/bluetooth/BluetoothProfile
-android/bluetooth/BluetoothProfileConnector
 android/bluetooth/BluetoothQualityReport
 android/bluetooth/BluetoothSap
 android/bluetooth/BluetoothServerSocket
