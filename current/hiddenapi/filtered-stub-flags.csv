@@ -2072,6 +2072,7 @@ Landroid/bluetooth/BluetoothSocketException;->RPC_FAILURE:I,public-api,system-ap
 Landroid/bluetooth/BluetoothSocketException;->SOCKET_CLOSED:I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothSocketException;->SOCKET_CONNECTION_FAILURE:I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothSocketException;->SOCKET_MANAGER_FAILURE:I,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothSocketException;->UNIX_FILE_SOCKET_CREATION_FAILURE:I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothSocketException;->UNSPECIFIED:I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothSocketException;->getErrorCode()I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothStatusCodes;->ALLOWED:I,system-api,test-api
@@ -2670,6 +2671,7 @@ Landroid/bluetooth/le/DistanceMeasurementMethod$Builder;->setAltitudeAngleSuppor
 Landroid/bluetooth/le/DistanceMeasurementMethod$Builder;->setAzimuthAngleSupported(Z)Landroid/bluetooth/le/DistanceMeasurementMethod$Builder;,system-api,test-api
 Landroid/bluetooth/le/DistanceMeasurementMethod;->CREATOR:Landroid/os/Parcelable$Creator;,system-api,test-api
 Landroid/bluetooth/le/DistanceMeasurementMethod;->DISTANCE_MEASUREMENT_METHOD_AUTO:I,system-api,test-api
+Landroid/bluetooth/le/DistanceMeasurementMethod;->DISTANCE_MEASUREMENT_METHOD_CHANNEL_SOUNDING:I,system-api,test-api
 Landroid/bluetooth/le/DistanceMeasurementMethod;->DISTANCE_MEASUREMENT_METHOD_RSSI:I,system-api,test-api
 Landroid/bluetooth/le/DistanceMeasurementMethod;->describeContents()I,public-api,system-api,test-api
 Landroid/bluetooth/le/DistanceMeasurementMethod;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
