@@ -133,6 +133,7 @@ android/bluetooth/SdpOppOpsRecord
 android/bluetooth/SdpPseRecord
 android/bluetooth/SdpRecord
 android/bluetooth/SdpSapsRecord
+android/bluetooth/SocketMetrics
 android/bluetooth/UidTraffic
 android/bluetooth/le/**
 com/android/bluetooth/**
