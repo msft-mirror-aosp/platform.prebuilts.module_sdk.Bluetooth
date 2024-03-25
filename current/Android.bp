@@ -92,7 +92,7 @@ java_sdk_library_import {
     permitted_packages: [
         "android.bluetooth",
         "com.android.bluetooth.flags",
-        "com.android.bluetooth.x",
+        "com.android.bluetooth.jarjar",
     ],
     public: {
         jars: ["sdk_library/public/framework-bluetooth-stubs.jar"],
