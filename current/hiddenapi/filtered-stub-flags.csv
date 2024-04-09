@@ -131,8 +131,8 @@ Landroid/bluetooth/BluetoothAdapter;->ACTIVE_DEVICE_AUDIO:I,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->ACTIVE_DEVICE_PHONE_CALL:I,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->AUDIO_MODE_DUPLEX:Ljava/lang/String;,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->AUDIO_MODE_OUTPUT_ONLY:Ljava/lang/String;,system-api,test-api
-Landroid/bluetooth/BluetoothAdapter;->AUTO_ON_STATE_OFF:I,system-api,test-api
-Landroid/bluetooth/BluetoothAdapter;->AUTO_ON_STATE_ON:I,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter;->AUTO_ON_STATE_DISABLED:I,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter;->AUTO_ON_STATE_ENABLED:I,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->BT_SNOOP_LOG_MODE_DISABLED:I,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->BT_SNOOP_LOG_MODE_FILTERED:I,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->BT_SNOOP_LOG_MODE_FULL:I,system-api,test-api
@@ -2426,6 +2426,10 @@ Landroid/bluetooth/IBluetoothSap$Default;->asBinder()Landroid/os/IBinder;,public
 Landroid/bluetooth/IBluetoothSap$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/bluetooth/IBluetoothSap$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/bluetooth/IBluetoothSap$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
+Landroid/bluetooth/IBluetoothScan$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/bluetooth/IBluetoothScan$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/bluetooth/IBluetoothScan$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/bluetooth/IBluetoothScan$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
 Landroid/bluetooth/IBluetoothSocketManager$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/bluetooth/IBluetoothSocketManager$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/bluetooth/IBluetoothSocketManager$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
@@ -3096,15 +3100,3 @@ Lcom/android/bluetooth/jarjar/android/sysprop/BluetoothProperties$$ExternalSynth
 Lcom/android/bluetooth/jarjar/android/sysprop/BluetoothProperties$$ExternalSyntheticLambda1;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/jarjar/android/sysprop/BluetoothProperties$$ExternalSyntheticLambda2;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/jarjar/android/sysprop/TelephonyProperties$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/ISynchronousResultReceiver$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/ISynchronousResultReceiver$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/ISynchronousResultReceiver$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/ISynchronousResultReceiver$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/SynchronousResultReceiver$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/SynchronousResultReceiver$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/SynchronousResultReceiver$Result$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/SynchronousResultReceiver$Result$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/SynchronousResultReceiver$Result;->describeContents()I,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/SynchronousResultReceiver$Result;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/SynchronousResultReceiver;->describeContents()I,public-api,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/modules/utils/SynchronousResultReceiver;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api

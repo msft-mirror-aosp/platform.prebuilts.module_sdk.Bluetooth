@@ -12,6 +12,16 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+apex_contributions_defaults {
+    name: "btservices-module-sdk.contributions",
+    contents: [
+        "prebuilt_bluetooth-compat-config",
+        "prebuilt_bluetoothapk-platform-compat-config",
+        "prebuilt_framework-bluetooth-compat-config",
+        "prebuilt_framework-bluetooth",
+    ],
+}
+
 prebuilt_bootclasspath_fragment {
     name: "com.android.btservices-bootclasspath-fragment",
     // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "btservices_module" is true.
