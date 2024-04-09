@@ -120,6 +120,7 @@ android/bluetooth/IBluetoothPreferredAudioProfilesCallback
 android/bluetooth/IBluetoothProfileServiceConnection
 android/bluetooth/IBluetoothQualityReportReadyCallback
 android/bluetooth/IBluetoothSap
+android/bluetooth/IBluetoothScan
 android/bluetooth/IBluetoothSocketManager
 android/bluetooth/IBluetoothStateChangeCallback
 android/bluetooth/IBluetoothVolumeControl
