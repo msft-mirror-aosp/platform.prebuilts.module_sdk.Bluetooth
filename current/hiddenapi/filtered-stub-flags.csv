@@ -89,11 +89,11 @@ Landroid/bluetooth/BluetoothAdapter$2;->apply(Ljava/lang/Object;)Ljava/lang/Obje
 Landroid/bluetooth/BluetoothAdapter$3;->apply(Ljava/lang/Object;)Ljava/lang/Object;,test-api
 Landroid/bluetooth/BluetoothAdapter$4;->apply(Ljava/lang/Object;)Ljava/lang/Object;,test-api
 Landroid/bluetooth/BluetoothAdapter$5;->apply(Ljava/lang/Object;)Ljava/lang/Object;,test-api
-Landroid/bluetooth/BluetoothAdapter$7$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/bluetooth/BluetoothAdapter$7$$ExternalSyntheticLambda1;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter$7$$ExternalSyntheticLambda0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter$7$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter$7$$ExternalSyntheticLambda2;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
-Landroid/bluetooth/BluetoothAdapter$7$$ExternalSyntheticLambda3;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/bluetooth/BluetoothAdapter$7$$ExternalSyntheticLambda4;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter$7$$ExternalSyntheticLambda3;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter$7$$ExternalSyntheticLambda4;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter$8;->onScanResult(ILandroid/bluetooth/le/ScanResult;)V,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter$9$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter$9$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
@@ -112,8 +112,8 @@ Landroid/bluetooth/BluetoothAdapter$OnMetadataChangedListener;->onMetadataChange
 Landroid/bluetooth/BluetoothAdapter$OobDataCallback;->onError(I)V,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter$OobDataCallback;->onOobData(ILandroid/bluetooth/OobData;)V,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter$PreferredAudioProfilesChangedCallback;->onPreferredAudioProfilesChanged(Landroid/bluetooth/BluetoothDevice;Landroid/os/Bundle;I)V,system-api,test-api
-Landroid/bluetooth/BluetoothAdapter$WrappedOobDataCallback$1;->run()V,core-platform-api,public-api,system-api,test-api
-Landroid/bluetooth/BluetoothAdapter$WrappedOobDataCallback$2;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter$WrappedOobDataCallback$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothAdapter$WrappedOobDataCallback$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->ACTION_AUTO_ON_STATE_CHANGED:Ljava/lang/String;,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->ACTION_BLE_STATE_CHANGED:Ljava/lang/String;,system-api,test-api
 Landroid/bluetooth/BluetoothAdapter;->ACTION_CONNECTION_STATE_CHANGED:Ljava/lang/String;,public-api,system-api,test-api
@@ -736,14 +736,10 @@ Landroid/bluetooth/BluetoothDevice;->BOND_NONE:I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->CONNECTION_ACCESS_NO:I,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->CONNECTION_ACCESS_YES:I,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->CREATOR:Landroid/os/Parcelable$Creator;,public-api,system-api,test-api
-Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_CARKIT:Ljava/lang/String;,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_CLASSIC:I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_DEFAULT:Ljava/lang/String;,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_DUAL:I,public-api,system-api,test-api
-Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_HEADSET:Ljava/lang/String;,system-api,test-api
-Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_HEARING_AID:Ljava/lang/String;,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_LE:I,public-api,system-api,test-api
-Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_SPEAKER:Ljava/lang/String;,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_STYLUS:Ljava/lang/String;,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_UNKNOWN:I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothDevice;->DEVICE_TYPE_UNTETHERED_HEADSET:Ljava/lang/String;,system-api,test-api
@@ -1510,6 +1506,7 @@ Landroid/bluetooth/BluetoothLeAudioCodecConfigMetadata;->getOctetsPerFrame()I,sy
 Landroid/bluetooth/BluetoothLeAudioCodecConfigMetadata;->getRawMetadata()[B,system-api,test-api
 Landroid/bluetooth/BluetoothLeAudioCodecConfigMetadata;->getSampleRate()I,system-api,test-api
 Landroid/bluetooth/BluetoothLeAudioCodecConfigMetadata;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothLeAudioCodecConfigMetadata;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeAudioCodecConfigMetadata;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeAudioCodecStatus$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeAudioCodecStatus$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
@@ -1546,6 +1543,7 @@ Landroid/bluetooth/BluetoothLeAudioContentMetadata;->getLanguage()Ljava/lang/Str
 Landroid/bluetooth/BluetoothLeAudioContentMetadata;->getProgramInfo()Ljava/lang/String;,system-api,test-api
 Landroid/bluetooth/BluetoothLeAudioContentMetadata;->getRawMetadata()[B,system-api,test-api
 Landroid/bluetooth/BluetoothLeAudioContentMetadata;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothLeAudioContentMetadata;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeAudioContentMetadata;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcast$1$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcast$1$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,system-api,test-api
@@ -1654,6 +1652,7 @@ Landroid/bluetooth/BluetoothLeBroadcastChannel;->getChannelIndex()I,system-api,t
 Landroid/bluetooth/BluetoothLeBroadcastChannel;->getCodecMetadata()Landroid/bluetooth/BluetoothLeAudioCodecConfigMetadata;,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastChannel;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastChannel;->isSelected()Z,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastChannel;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastChannel;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastMetadata$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastMetadata$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
@@ -1697,6 +1696,7 @@ Landroid/bluetooth/BluetoothLeBroadcastMetadata;->getSubgroups()Ljava/util/List;
 Landroid/bluetooth/BluetoothLeBroadcastMetadata;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastMetadata;->isEncrypted()Z,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastMetadata;->isPublicBroadcast()Z,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastMetadata;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastMetadata;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastReceiveState$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
@@ -1765,6 +1765,7 @@ Landroid/bluetooth/BluetoothLeBroadcastSubgroup;->getCodecSpecificConfig()Landro
 Landroid/bluetooth/BluetoothLeBroadcastSubgroup;->getContentMetadata()Landroid/bluetooth/BluetoothLeAudioContentMetadata;,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastSubgroup;->hasChannelPreference()Z,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastSubgroup;->hashCode()I,core-platform-api,public-api,system-api,test-api
+Landroid/bluetooth/BluetoothLeBroadcastSubgroup;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastSubgroup;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastSubgroupSettings$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothLeBroadcastSubgroupSettings$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
@@ -2073,8 +2074,6 @@ Landroid/bluetooth/BluetoothSocket;->connect()V,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothSocket;->finalize()V,core-platform-api,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothSocket;->getConnectionType()I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothSocket;->getInputStream()Ljava/io/InputStream;,public-api,system-api,test-api
-Landroid/bluetooth/BluetoothSocket;->getL2capLocalChannelId()I,system-api,test-api
-Landroid/bluetooth/BluetoothSocket;->getL2capRemoteChannelId()I,system-api,test-api
 Landroid/bluetooth/BluetoothSocket;->getMaxReceivePacketSize()I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothSocket;->getMaxTransmitPacketSize()I,public-api,system-api,test-api
 Landroid/bluetooth/BluetoothSocket;->getOutputStream()Ljava/io/OutputStream;,public-api,system-api,test-api
