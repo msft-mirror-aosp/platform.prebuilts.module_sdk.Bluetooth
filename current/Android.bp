@@ -139,7 +139,7 @@ java_import {
     },
     visibility: [
         "//packages/modules/Bluetooth/apex",
-        "//packages/modules/Bluetooth/service:__subpackages__",
+        "//packages/modules/Bluetooth/service",
     ],
     apex_available: ["com.android.btservices"],
     licenses: ["btservices-module-sdk_Android-Apache-2.0"],
