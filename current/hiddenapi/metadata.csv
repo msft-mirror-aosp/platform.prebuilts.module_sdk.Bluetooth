@@ -160,6 +160,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leaudioStartStreamRaceFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leaudioUnicastInactivateDeviceBasedOnContext()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leaudioVolumeChangeOnRingtoneFix()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->loadDidConfigFromSysprops()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->metadataApiInactiveAudioDeviceUponConnection()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->mfiHasUuid()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->nrpaNonConnectableAdv()Z|,||,||,||
@@ -170,6 +171,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->pretendNetworkService()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->removeBondWithAddressMap()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->reportVscDataFromTheGdController()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->resetAfterCollision()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->resetPairingOnlyForRelatedServiceDiscovery()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->retryEscoWithZeroRetransmissionEffort()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->rfcommAlwaysUseMitm()Z|,||,||,||
@@ -266,6 +268,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->leaudioStartStreamRaceFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->leaudioUnicastInactivateDeviceBasedOnContext()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->leaudioVolumeChangeOnRingtoneFix()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlags;->loadDidConfigFromSysprops()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->metadataApiInactiveAudioDeviceUponConnection()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->mfiHasUuid()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->nrpaNonConnectableAdv()Z|,||,||,||
@@ -276,6 +279,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->pretendNetworkService()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->removeBondWithAddressMap()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->reportVscDataFromTheGdController()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlags;->resetAfterCollision()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->resetPairingOnlyForRelatedServiceDiscovery()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->retryEscoWithZeroRetransmissionEffort()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->rfcommAlwaysUseMitm()Z|,||,||,||
@@ -372,6 +376,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioStartStreamRaceFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioUnicastInactivateDeviceBasedOnContext()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioVolumeChangeOnRingtoneFix()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->loadDidConfigFromSysprops()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->metadataApiInactiveAudioDeviceUponConnection()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->mfiHasUuid()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->nrpaNonConnectableAdv()Z|,||,||,||
@@ -382,6 +387,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->pretendNetworkService()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->removeBondWithAddressMap()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->reportVscDataFromTheGdController()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->resetAfterCollision()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->resetPairingOnlyForRelatedServiceDiscovery()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->retryEscoWithZeroRetransmissionEffort()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->rfcommAlwaysUseMitm()Z|,||,||,||
@@ -478,6 +484,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->leaudioStartStreamRaceFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->leaudioUnicastInactivateDeviceBasedOnContext()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->leaudioVolumeChangeOnRingtoneFix()Z|,||,||,||
+|Lcom/android/bluetooth/flags/Flags;->loadDidConfigFromSysprops()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->metadataApiInactiveAudioDeviceUponConnection()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->mfiHasUuid()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->nrpaNonConnectableAdv()Z|,||,||,||
@@ -488,6 +495,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->pretendNetworkService()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->removeBondWithAddressMap()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->reportVscDataFromTheGdController()Z|,||,||,||
+|Lcom/android/bluetooth/flags/Flags;->resetAfterCollision()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->resetPairingOnlyForRelatedServiceDiscovery()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->retryEscoWithZeroRetransmissionEffort()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->rfcommAlwaysUseMitm()Z|,||,||,||
