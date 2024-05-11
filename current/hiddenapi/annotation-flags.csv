@@ -124,6 +124,7 @@ Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->gattCleanupRestrictedHandles
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->gattDropAclOnOutOfResourcesFix()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->gattFixDeviceBusy()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->gattReconnectOnBtOnFix()Z,unsupported
+Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->gattRediscoverOnCanceled()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->gdxDeviceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->gdxServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->getAddressTypeApi()Z,unsupported
@@ -141,6 +142,7 @@ Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leAudioFastBondParams()Z,uns
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->lePeriodicScanningReassembler()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leScanFixRemoteException()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leScanParametersFix()Z,unsupported
+Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leScanUseUidForImportance()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leaudioActiveDeviceManagerGroupHandlingFix()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leaudioAddSamplingFrequencies()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->leaudioApiSynchronizedBlockFix()Z,unsupported
@@ -168,6 +170,7 @@ Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->oppServiceFixIndexOutOfBound
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->oppStartActivityDirectlyFromNotification()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->phyToNative()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->pretendNetworkService()Z,unsupported
+Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->removeAddressMapOnUnbond()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->removeBondWithAddressMap()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->reportVscDataFromTheGdController()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->resetAfterCollision()Z,unsupported
@@ -232,6 +235,7 @@ Lcom/android/bluetooth/flags/FeatureFlags;->gattCleanupRestrictedHandles()Z,unsu
 Lcom/android/bluetooth/flags/FeatureFlags;->gattDropAclOnOutOfResourcesFix()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->gattFixDeviceBusy()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->gattReconnectOnBtOnFix()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlags;->gattRediscoverOnCanceled()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->gdxDeviceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->gdxServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->getAddressTypeApi()Z,unsupported
@@ -249,6 +253,7 @@ Lcom/android/bluetooth/flags/FeatureFlags;->leAudioFastBondParams()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->lePeriodicScanningReassembler()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->leScanFixRemoteException()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->leScanParametersFix()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlags;->leScanUseUidForImportance()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->leaudioActiveDeviceManagerGroupHandlingFix()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->leaudioAddSamplingFrequencies()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->leaudioApiSynchronizedBlockFix()Z,unsupported
@@ -276,6 +281,7 @@ Lcom/android/bluetooth/flags/FeatureFlags;->oppServiceFixIndexOutOfBoundsExcepti
 Lcom/android/bluetooth/flags/FeatureFlags;->oppStartActivityDirectlyFromNotification()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->phyToNative()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->pretendNetworkService()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlags;->removeAddressMapOnUnbond()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->removeBondWithAddressMap()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->reportVscDataFromTheGdController()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->resetAfterCollision()Z,unsupported
@@ -340,6 +346,7 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattCleanupRestrictedHandles()Z,
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattDropAclOnOutOfResourcesFix()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattFixDeviceBusy()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattReconnectOnBtOnFix()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattRediscoverOnCanceled()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gdxDeviceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gdxServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->getAddressTypeApi()Z,unsupported
@@ -357,6 +364,7 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leAudioFastBondParams()Z,unsuppo
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->lePeriodicScanningReassembler()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leScanFixRemoteException()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leScanParametersFix()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leScanUseUidForImportance()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioActiveDeviceManagerGroupHandlingFix()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioAddSamplingFrequencies()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioApiSynchronizedBlockFix()Z,unsupported
@@ -384,6 +392,7 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->oppServiceFixIndexOutOfBoundsExc
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->oppStartActivityDirectlyFromNotification()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->phyToNative()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->pretendNetworkService()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlagsImpl;->removeAddressMapOnUnbond()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->removeBondWithAddressMap()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->reportVscDataFromTheGdController()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->resetAfterCollision()Z,unsupported
@@ -448,6 +457,7 @@ Lcom/android/bluetooth/flags/Flags;->gattCleanupRestrictedHandles()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->gattDropAclOnOutOfResourcesFix()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->gattFixDeviceBusy()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->gattReconnectOnBtOnFix()Z,unsupported
+Lcom/android/bluetooth/flags/Flags;->gattRediscoverOnCanceled()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->gdxDeviceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->gdxServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->getAddressTypeApi()Z,unsupported
@@ -465,6 +475,7 @@ Lcom/android/bluetooth/flags/Flags;->leAudioFastBondParams()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->lePeriodicScanningReassembler()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->leScanFixRemoteException()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->leScanParametersFix()Z,unsupported
+Lcom/android/bluetooth/flags/Flags;->leScanUseUidForImportance()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->leaudioActiveDeviceManagerGroupHandlingFix()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->leaudioAddSamplingFrequencies()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->leaudioApiSynchronizedBlockFix()Z,unsupported
@@ -492,6 +503,7 @@ Lcom/android/bluetooth/flags/Flags;->oppServiceFixIndexOutOfBoundsExceptionInUpd
 Lcom/android/bluetooth/flags/Flags;->oppStartActivityDirectlyFromNotification()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->phyToNative()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->pretendNetworkService()Z,unsupported
+Lcom/android/bluetooth/flags/Flags;->removeAddressMapOnUnbond()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->removeBondWithAddressMap()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->reportVscDataFromTheGdController()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->resetAfterCollision()Z,unsupported
