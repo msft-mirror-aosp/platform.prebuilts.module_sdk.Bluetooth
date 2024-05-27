@@ -4847,6 +4847,7 @@ Landroid/bluetooth/le/TruncatedFilter;->getFilter()Landroid/bluetooth/le/ScanFil
 Landroid/bluetooth/le/TruncatedFilter;->getStorageDescriptors()Ljava/util/List;,sdk,system-api,test-api
 Landroid/bluetooth/le/TruncatedFilter;->mFilter:Landroid/bluetooth/le/ScanFilter;,lo-prio,max-target-o
 Landroid/bluetooth/le/TruncatedFilter;->mStorageDescriptors:Ljava/util/List;,lo-prio,max-target-o
+Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->a2dpAsyncAllowLowLatency()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->a2dpConcurrentSourceSink()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->a2dpOffloadCodecExtensibility()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->airplaneRessourcesInApp()Z,unsupported
@@ -4869,6 +4870,8 @@ Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->btaDmDeferDeviceDiscoverySta
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->btaDmDiscStuckInCancellingFix()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->channelSounding()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->channelSoundingInStack()Z,unsupported
+Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->cleanupLeOnlyDeviceType()Z,unsupported
+Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->clearCollisionStateOnPairingComplete()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->closeRfcommInsteadOfReset()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->connectHidAfterServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->correctBondTypeOfLoadedDevices()Z,unsupported
@@ -4958,6 +4961,7 @@ Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->useLeShimConnectionMapGuard(
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->useNewAirplaneMode()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->useNewSatelliteMode()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->vcpMuteUnmute()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlags;->a2dpAsyncAllowLowLatency()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->a2dpConcurrentSourceSink()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->a2dpOffloadCodecExtensibility()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->airplaneRessourcesInApp()Z,unsupported
@@ -4980,6 +4984,8 @@ Lcom/android/bluetooth/flags/FeatureFlags;->btaDmDeferDeviceDiscoveryStateChange
 Lcom/android/bluetooth/flags/FeatureFlags;->btaDmDiscStuckInCancellingFix()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->channelSounding()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->channelSoundingInStack()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlags;->cleanupLeOnlyDeviceType()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlags;->clearCollisionStateOnPairingComplete()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->closeRfcommInsteadOfReset()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->connectHidAfterServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->correctBondTypeOfLoadedDevices()Z,unsupported
@@ -5069,6 +5075,7 @@ Lcom/android/bluetooth/flags/FeatureFlags;->useLeShimConnectionMapGuard()Z,unsup
 Lcom/android/bluetooth/flags/FeatureFlags;->useNewAirplaneMode()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->useNewSatelliteMode()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->vcpMuteUnmute()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlagsImpl;->a2dpAsyncAllowLowLatency()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->a2dpConcurrentSourceSink()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->a2dpOffloadCodecExtensibility()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->airplaneRessourcesInApp()Z,unsupported
@@ -5091,6 +5098,8 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaDmDeferDeviceDiscoveryStateCh
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaDmDiscStuckInCancellingFix()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->channelSounding()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->channelSoundingInStack()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlagsImpl;->cleanupLeOnlyDeviceType()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlagsImpl;->clearCollisionStateOnPairingComplete()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->closeRfcommInsteadOfReset()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->connectHidAfterServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->correctBondTypeOfLoadedDevices()Z,unsupported
@@ -5180,6 +5189,7 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useLeShimConnectionMapGuard()Z,u
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useNewAirplaneMode()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useNewSatelliteMode()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->vcpMuteUnmute()Z,unsupported
+Lcom/android/bluetooth/flags/Flags;->a2dpAsyncAllowLowLatency()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->a2dpConcurrentSourceSink()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->a2dpOffloadCodecExtensibility()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->airplaneRessourcesInApp()Z,unsupported
@@ -5202,6 +5212,8 @@ Lcom/android/bluetooth/flags/Flags;->btaDmDeferDeviceDiscoveryStateChangeUntilRn
 Lcom/android/bluetooth/flags/Flags;->btaDmDiscStuckInCancellingFix()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->channelSounding()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->channelSoundingInStack()Z,unsupported
+Lcom/android/bluetooth/flags/Flags;->cleanupLeOnlyDeviceType()Z,unsupported
+Lcom/android/bluetooth/flags/Flags;->clearCollisionStateOnPairingComplete()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->closeRfcommInsteadOfReset()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->connectHidAfterServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->correctBondTypeOfLoadedDevices()Z,unsupported
