@@ -192,6 +192,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->supportMetadataDeviceTypesApis()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->synchronousBtaSec()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->systemServerMessenger()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->temporaryPairingDeviceProperties()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->unixFileSocketCreationFailure()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->useDspCodecWhenControllerDoesNotSupport()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->useEntireMessageHandle()Z|,||,||,||
@@ -306,6 +307,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->supportMetadataDeviceTypesApis()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->synchronousBtaSec()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->systemServerMessenger()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlags;->temporaryPairingDeviceProperties()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->unixFileSocketCreationFailure()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->useDspCodecWhenControllerDoesNotSupport()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->useEntireMessageHandle()Z|,||,||,||
@@ -420,6 +422,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->supportMetadataDeviceTypesApis()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->synchronousBtaSec()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->systemServerMessenger()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->temporaryPairingDeviceProperties()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->unixFileSocketCreationFailure()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useDspCodecWhenControllerDoesNotSupport()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useEntireMessageHandle()Z|,||,||,||
@@ -534,6 +537,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->supportMetadataDeviceTypesApis()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->synchronousBtaSec()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->systemServerMessenger()Z|,||,||,||
+|Lcom/android/bluetooth/flags/Flags;->temporaryPairingDeviceProperties()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->unixFileSocketCreationFailure()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->useDspCodecWhenControllerDoesNotSupport()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->useEntireMessageHandle()Z|,||,||,||

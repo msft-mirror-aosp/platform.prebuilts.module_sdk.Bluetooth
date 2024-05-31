@@ -4954,6 +4954,7 @@ Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->supportExclusiveManager()Z,u
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->supportMetadataDeviceTypesApis()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->synchronousBtaSec()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->systemServerMessenger()Z,unsupported
+Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->temporaryPairingDeviceProperties()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->unixFileSocketCreationFailure()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->useDspCodecWhenControllerDoesNotSupport()Z,unsupported
 Lcom/android/bluetooth/flags/FakeFeatureFlagsImpl;->useEntireMessageHandle()Z,unsupported
@@ -5068,6 +5069,7 @@ Lcom/android/bluetooth/flags/FeatureFlags;->supportExclusiveManager()Z,unsupport
 Lcom/android/bluetooth/flags/FeatureFlags;->supportMetadataDeviceTypesApis()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->synchronousBtaSec()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->systemServerMessenger()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlags;->temporaryPairingDeviceProperties()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->unixFileSocketCreationFailure()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->useDspCodecWhenControllerDoesNotSupport()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->useEntireMessageHandle()Z,unsupported
@@ -5182,6 +5184,7 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->supportExclusiveManager()Z,unsup
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->supportMetadataDeviceTypesApis()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->synchronousBtaSec()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->systemServerMessenger()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlagsImpl;->temporaryPairingDeviceProperties()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->unixFileSocketCreationFailure()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useDspCodecWhenControllerDoesNotSupport()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useEntireMessageHandle()Z,unsupported
@@ -5296,6 +5299,7 @@ Lcom/android/bluetooth/flags/Flags;->supportExclusiveManager()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->supportMetadataDeviceTypesApis()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->synchronousBtaSec()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->systemServerMessenger()Z,unsupported
+Lcom/android/bluetooth/flags/Flags;->temporaryPairingDeviceProperties()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->unixFileSocketCreationFailure()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->useDspCodecWhenControllerDoesNotSupport()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->useEntireMessageHandle()Z,unsupported
