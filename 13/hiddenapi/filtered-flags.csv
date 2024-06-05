@@ -4957,7 +4957,6 @@ Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda179;->te
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda17;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda180;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda181;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda182;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda18;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda19;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
@@ -5085,6 +5084,7 @@ Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaAvSetconfigRejTypeConfusion
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaAvUsePeerCodec()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaDmDiscStuckInCancellingFix()Z,unsupported
+Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaDmDiscoverBoth()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->cancelPairingOnlyOnDisconnectedTransport()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->channelSounding()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->channelSoundingInStack()Z,unsupported
@@ -5117,7 +5117,6 @@ Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattDropAclOnOutOfResourcesFix
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattFixDeviceBusy()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattReconnectOnBtOnFix()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattRediscoverOnCanceled()Z,unsupported
-Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattServerAddHandlerToRunCallbacksOn()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->gdxDeviceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->gdxServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->getAddressTypeApi()Z,unsupported
@@ -5185,7 +5184,6 @@ Lcom/android/bluetooth/flags/CustomFeatureFlags;->mfiHasUuid()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->msftAddrTrackingQuirk()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->nrpaNonConnectableAdv()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->oppFixMultipleNotificationsIssues()Z,unsupported
-Lcom/android/bluetooth/flags/CustomFeatureFlags;->oppRemoveIncompleteDownload()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->oppServiceFixIndexOutOfBoundsExceptionInUpdateThread()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->oppStartActivityDirectlyFromNotification()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->pairingOnUnknownTransport()Z,unsupported
@@ -5268,6 +5266,7 @@ Lcom/android/bluetooth/flags/FeatureFlags;->btaAvSetconfigRejTypeConfusion()Z,un
 Lcom/android/bluetooth/flags/FeatureFlags;->btaAvUsePeerCodec()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->btaDmDiscStuckInCancellingFix()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlags;->btaDmDiscoverBoth()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->cancelPairingOnlyOnDisconnectedTransport()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->channelSounding()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->channelSoundingInStack()Z,unsupported
@@ -5300,7 +5299,6 @@ Lcom/android/bluetooth/flags/FeatureFlags;->gattDropAclOnOutOfResourcesFix()Z,un
 Lcom/android/bluetooth/flags/FeatureFlags;->gattFixDeviceBusy()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->gattReconnectOnBtOnFix()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->gattRediscoverOnCanceled()Z,unsupported
-Lcom/android/bluetooth/flags/FeatureFlags;->gattServerAddHandlerToRunCallbacksOn()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->gdxDeviceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->gdxServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->getAddressTypeApi()Z,unsupported
@@ -5368,7 +5366,6 @@ Lcom/android/bluetooth/flags/FeatureFlags;->mfiHasUuid()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->msftAddrTrackingQuirk()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->nrpaNonConnectableAdv()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->oppFixMultipleNotificationsIssues()Z,unsupported
-Lcom/android/bluetooth/flags/FeatureFlags;->oppRemoveIncompleteDownload()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->oppServiceFixIndexOutOfBoundsExceptionInUpdateThread()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->oppStartActivityDirectlyFromNotification()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->pairingOnUnknownTransport()Z,unsupported
@@ -5451,6 +5448,7 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaAvSetconfigRejTypeConfusion()
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaAvUsePeerCodec()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaDmDiscStuckInCancellingFix()Z,unsupported
+Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaDmDiscoverBoth()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->cancelPairingOnlyOnDisconnectedTransport()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->channelSounding()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->channelSoundingInStack()Z,unsupported
@@ -5483,7 +5481,6 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattDropAclOnOutOfResourcesFix()
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattFixDeviceBusy()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattReconnectOnBtOnFix()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattRediscoverOnCanceled()Z,unsupported
-Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattServerAddHandlerToRunCallbacksOn()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gdxDeviceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gdxServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->getAddressTypeApi()Z,unsupported
@@ -5551,7 +5548,6 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->mfiHasUuid()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->msftAddrTrackingQuirk()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->nrpaNonConnectableAdv()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->oppFixMultipleNotificationsIssues()Z,unsupported
-Lcom/android/bluetooth/flags/FeatureFlagsImpl;->oppRemoveIncompleteDownload()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->oppServiceFixIndexOutOfBoundsExceptionInUpdateThread()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->oppStartActivityDirectlyFromNotification()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->pairingOnUnknownTransport()Z,unsupported
@@ -5634,6 +5630,7 @@ Lcom/android/bluetooth/flags/Flags;->btaAvSetconfigRejTypeConfusion()Z,unsupport
 Lcom/android/bluetooth/flags/Flags;->btaAvUsePeerCodec()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->btaDmDiscStuckInCancellingFix()Z,unsupported
+Lcom/android/bluetooth/flags/Flags;->btaDmDiscoverBoth()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->cancelPairingOnlyOnDisconnectedTransport()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->channelSounding()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->channelSoundingInStack()Z,unsupported
@@ -5666,7 +5663,6 @@ Lcom/android/bluetooth/flags/Flags;->gattDropAclOnOutOfResourcesFix()Z,unsupport
 Lcom/android/bluetooth/flags/Flags;->gattFixDeviceBusy()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->gattReconnectOnBtOnFix()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->gattRediscoverOnCanceled()Z,unsupported
-Lcom/android/bluetooth/flags/Flags;->gattServerAddHandlerToRunCallbacksOn()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->gdxDeviceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->gdxServiceDiscovery()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->getAddressTypeApi()Z,unsupported
@@ -5734,7 +5730,6 @@ Lcom/android/bluetooth/flags/Flags;->mfiHasUuid()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->msftAddrTrackingQuirk()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->nrpaNonConnectableAdv()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->oppFixMultipleNotificationsIssues()Z,unsupported
-Lcom/android/bluetooth/flags/Flags;->oppRemoveIncompleteDownload()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->oppServiceFixIndexOutOfBoundsExceptionInUpdateThread()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->oppStartActivityDirectlyFromNotification()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->pairingOnUnknownTransport()Z,unsupported
