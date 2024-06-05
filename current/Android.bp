@@ -1,15 +1,19 @@
 // This is auto-generated. DO NOT EDIT.
 
-// blueprint rules added by vendor/google/build/mainline_modules_sdks.py
-// to support coexistence.
-blueprint_package_includes {
-    match_all: ["com.android.mainline"]
-}
-
 package {
     // A default list here prevents the license LSC from adding its own list which would
     // be unnecessary as every module in the sdk already has its own licenses property.
     default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+apex_contributions_defaults {
+    name: "btservices-module-sdk.contributions",
+    contents: [
+        "prebuilt_bluetooth-compat-config",
+        "prebuilt_bluetoothapk-platform-compat-config",
+        "prebuilt_framework-bluetooth-compat-config",
+        "prebuilt_framework-bluetooth",
+    ],
 }
 
 prebuilt_bootclasspath_fragment {
@@ -91,7 +95,8 @@ java_sdk_library_import {
     shared_library: false,
     permitted_packages: [
         "android.bluetooth",
-        "com.android.bluetooth.x",
+        "com.android.bluetooth.flags",
+        "com.android.bluetooth.jarjar",
     ],
     public: {
         jars: ["sdk_library/public/framework-bluetooth-stubs.jar"],
