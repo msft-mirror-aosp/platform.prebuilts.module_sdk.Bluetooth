@@ -113,7 +113,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->bleGattServerUseAddressTypeInConnection()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->bleScanAdvMetricsRedesign()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->bluetoothPowerTelemetry()Z|,||,||,||
-|Lcom/android/bluetooth/flags/CustomFeatureFlags;->bluffsMitigation()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->bondTransportAfterBondCancelFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->breakUhidPollingEarly()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->browsingRefactor()Z|,||,||,||
@@ -149,6 +148,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattClientDynamicAllocation()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattDropAclOnOutOfResourcesFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattFixDeviceBusy()Z|,||,||,||
+|Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattFixMultipleDirectConnect()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattReconnectOnBtOnFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->gattRediscoverOnCanceled()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->gdxDeviceDiscovery()Z|,||,||,||
@@ -158,6 +158,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->handleDeliverySendingFailureEvents()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->headsetClientAmHfVolumeSymmetric()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->headtrackerCodecCapability()Z|,||,||,||
+|Lcom/android/bluetooth/flags/CustomFeatureFlags;->headtrackerSduSize()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->hfpCodecAptxVoice()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->hidReportQueuing()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->higherL2capFlushThreshold()Z|,||,||,||
@@ -183,7 +184,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->leaudioAddSamplingFrequencies()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->leaudioAllowLeaudioOnlyDevices()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->leaudioAllowedContextMask()Z|,||,||,||
-|Lcom/android/bluetooth/flags/CustomFeatureFlags;->leaudioApiSynchronizedBlockFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->leaudioBigDependsOnAudioState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->leaudioBroadcastAssistantHandleCommandStatuses()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->leaudioBroadcastAssistantPeripheralEntrustment()Z|,||,||,||
@@ -250,6 +250,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->settingsCanControlHapPreset()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->sinkAudioPolicyHandover()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->skipUnknownRobustCaching()Z|,||,||,||
+|Lcom/android/bluetooth/flags/CustomFeatureFlags;->splitSecState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->stackSdpDetectNilPropertyType()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->stackSdpDisconnectWhenCancelInPendingState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->supportExclusiveManager()Z|,||,||,||
@@ -294,7 +295,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->bleGattServerUseAddressTypeInConnection()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->bleScanAdvMetricsRedesign()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->bluetoothPowerTelemetry()Z|,||,||,||
-|Lcom/android/bluetooth/flags/FeatureFlags;->bluffsMitigation()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->bondTransportAfterBondCancelFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->breakUhidPollingEarly()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->browsingRefactor()Z|,||,||,||
@@ -330,6 +330,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->gattClientDynamicAllocation()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->gattDropAclOnOutOfResourcesFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->gattFixDeviceBusy()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlags;->gattFixMultipleDirectConnect()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->gattReconnectOnBtOnFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->gattRediscoverOnCanceled()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->gdxDeviceDiscovery()Z|,||,||,||
@@ -339,6 +340,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->handleDeliverySendingFailureEvents()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->headsetClientAmHfVolumeSymmetric()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->headtrackerCodecCapability()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlags;->headtrackerSduSize()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->hfpCodecAptxVoice()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->hidReportQueuing()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->higherL2capFlushThreshold()Z|,||,||,||
@@ -364,7 +366,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->leaudioAddSamplingFrequencies()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->leaudioAllowLeaudioOnlyDevices()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->leaudioAllowedContextMask()Z|,||,||,||
-|Lcom/android/bluetooth/flags/FeatureFlags;->leaudioApiSynchronizedBlockFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->leaudioBigDependsOnAudioState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->leaudioBroadcastAssistantHandleCommandStatuses()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->leaudioBroadcastAssistantPeripheralEntrustment()Z|,||,||,||
@@ -431,6 +432,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->settingsCanControlHapPreset()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->sinkAudioPolicyHandover()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->skipUnknownRobustCaching()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlags;->splitSecState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->stackSdpDetectNilPropertyType()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->stackSdpDisconnectWhenCancelInPendingState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->supportExclusiveManager()Z|,||,||,||
@@ -475,7 +477,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->bleGattServerUseAddressTypeInConnection()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->bleScanAdvMetricsRedesign()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->bluetoothPowerTelemetry()Z|,||,||,||
-|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->bluffsMitigation()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->bondTransportAfterBondCancelFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->breakUhidPollingEarly()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->browsingRefactor()Z|,||,||,||
@@ -511,6 +512,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattClientDynamicAllocation()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattDropAclOnOutOfResourcesFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattFixDeviceBusy()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattFixMultipleDirectConnect()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattReconnectOnBtOnFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gattRediscoverOnCanceled()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->gdxDeviceDiscovery()Z|,||,||,||
@@ -520,6 +522,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->handleDeliverySendingFailureEvents()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->headsetClientAmHfVolumeSymmetric()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->headtrackerCodecCapability()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->headtrackerSduSize()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->hfpCodecAptxVoice()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->hidReportQueuing()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->higherL2capFlushThreshold()Z|,||,||,||
@@ -545,7 +548,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioAddSamplingFrequencies()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioAllowLeaudioOnlyDevices()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioAllowedContextMask()Z|,||,||,||
-|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioApiSynchronizedBlockFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioBigDependsOnAudioState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioBroadcastAssistantHandleCommandStatuses()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->leaudioBroadcastAssistantPeripheralEntrustment()Z|,||,||,||
@@ -612,6 +614,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->settingsCanControlHapPreset()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->sinkAudioPolicyHandover()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->skipUnknownRobustCaching()Z|,||,||,||
+|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->splitSecState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->stackSdpDetectNilPropertyType()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->stackSdpDisconnectWhenCancelInPendingState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->supportExclusiveManager()Z|,||,||,||
@@ -656,7 +659,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->bleGattServerUseAddressTypeInConnection()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->bleScanAdvMetricsRedesign()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->bluetoothPowerTelemetry()Z|,||,||,||
-|Lcom/android/bluetooth/flags/Flags;->bluffsMitigation()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->bondTransportAfterBondCancelFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->breakUhidPollingEarly()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->browsingRefactor()Z|,||,||,||
@@ -692,6 +694,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->gattClientDynamicAllocation()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->gattDropAclOnOutOfResourcesFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->gattFixDeviceBusy()Z|,||,||,||
+|Lcom/android/bluetooth/flags/Flags;->gattFixMultipleDirectConnect()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->gattReconnectOnBtOnFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->gattRediscoverOnCanceled()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->gdxDeviceDiscovery()Z|,||,||,||
@@ -701,6 +704,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->handleDeliverySendingFailureEvents()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->headsetClientAmHfVolumeSymmetric()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->headtrackerCodecCapability()Z|,||,||,||
+|Lcom/android/bluetooth/flags/Flags;->headtrackerSduSize()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->hfpCodecAptxVoice()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->hidReportQueuing()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->higherL2capFlushThreshold()Z|,||,||,||
@@ -726,7 +730,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->leaudioAddSamplingFrequencies()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->leaudioAllowLeaudioOnlyDevices()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->leaudioAllowedContextMask()Z|,||,||,||
-|Lcom/android/bluetooth/flags/Flags;->leaudioApiSynchronizedBlockFix()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->leaudioBigDependsOnAudioState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->leaudioBroadcastAssistantHandleCommandStatuses()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->leaudioBroadcastAssistantPeripheralEntrustment()Z|,||,||,||
@@ -793,6 +796,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->settingsCanControlHapPreset()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->sinkAudioPolicyHandover()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->skipUnknownRobustCaching()Z|,||,||,||
+|Lcom/android/bluetooth/flags/Flags;->splitSecState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->stackSdpDetectNilPropertyType()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->stackSdpDisconnectWhenCancelInPendingState()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->supportExclusiveManager()Z|,||,||,||
