@@ -80,8 +80,6 @@ android/bluetooth/IBluetoothA2dp
 android/bluetooth/IBluetoothA2dpSink
 android/bluetooth/IBluetoothActivityEnergyInfoListener
 android/bluetooth/IBluetoothAvrcpController
-android/bluetooth/IBluetoothAvrcpTarget
-android/bluetooth/IBluetoothBattery
 android/bluetooth/IBluetoothCallback
 android/bluetooth/IBluetoothConnectionCallback
 android/bluetooth/IBluetoothCsipSetCoordinator
