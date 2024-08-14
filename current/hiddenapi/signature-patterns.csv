@@ -45,7 +45,6 @@ android/bluetooth/BluetoothLeAudioCodecStatus
 android/bluetooth/BluetoothLeAudioContentMetadata
 android/bluetooth/BluetoothLeBroadcast
 android/bluetooth/BluetoothLeBroadcastAssistant
-android/bluetooth/BluetoothLeBroadcastAssistantCallback
 android/bluetooth/BluetoothLeBroadcastChannel
 android/bluetooth/BluetoothLeBroadcastMetadata
 android/bluetooth/BluetoothLeBroadcastReceiveState
@@ -75,6 +74,7 @@ android/bluetooth/BluetoothUuid
 android/bluetooth/BluetoothVolumeControl
 android/bluetooth/BufferConstraint
 android/bluetooth/BufferConstraints
+android/bluetooth/CallbackWrapper
 android/bluetooth/IBluetooth
 android/bluetooth/IBluetoothA2dp
 android/bluetooth/IBluetoothA2dpSink
