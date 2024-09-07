@@ -3211,7 +3211,17 @@ Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda209;->te
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda20;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda210;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda211;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda212;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda213;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda214;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda215;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda216;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda217;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda218;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda219;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda21;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda220;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda221;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda22;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda23;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda24;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
@@ -3301,4 +3311,6 @@ Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda9;->test
 Lcom/android/bluetooth/jarjar/android/sysprop/BluetoothProperties$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/jarjar/android/sysprop/BluetoothProperties$$ExternalSyntheticLambda1;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/jarjar/android/sysprop/BluetoothProperties$$ExternalSyntheticLambda2;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/jarjar/android/sysprop/NfcProperties$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
+Lcom/android/bluetooth/jarjar/android/sysprop/NfcProperties$$ExternalSyntheticLambda1;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
 Lcom/android/bluetooth/jarjar/android/sysprop/TelephonyProperties$$ExternalSyntheticLambda0;->apply(Ljava/lang/Object;)Ljava/lang/Object;,core-platform-api,public-api,system-api,test-api
