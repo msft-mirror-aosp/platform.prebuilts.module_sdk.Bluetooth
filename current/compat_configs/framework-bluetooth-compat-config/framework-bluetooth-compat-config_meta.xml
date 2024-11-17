@@ -4,6 +4,6 @@
     <meta-data definedIn="android.bluetooth.BluetoothLeAudio" sourcePosition="packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothLeAudio.java:359" />
   </compat-change>
   <compat-change enableSinceTargetSdk="34" id="265103382" name="CHANGE_TO_STRING_REDACTED">
-    <meta-data definedIn="android.bluetooth.BluetoothDevice" sourcePosition="packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothDevice.java:932" />
+    <meta-data definedIn="android.bluetooth.BluetoothDevice" sourcePosition="packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothDevice.java:987" />
   </compat-change>
 </config>
