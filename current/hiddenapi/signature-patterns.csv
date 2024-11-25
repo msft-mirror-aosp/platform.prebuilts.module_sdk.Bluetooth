@@ -1,4 +1,5 @@
 android/bluetooth/Attributable
+android/bluetooth/AudioInputControl
 android/bluetooth/BluetoothA2dp
 android/bluetooth/BluetoothA2dpSink
 android/bluetooth/BluetoothActivityEnergyInfo
@@ -68,6 +69,7 @@ android/bluetooth/BluetoothServerSocket
 android/bluetooth/BluetoothSinkAudioPolicy
 android/bluetooth/BluetoothSocket
 android/bluetooth/BluetoothSocketException
+android/bluetooth/BluetoothSocketSettings
 android/bluetooth/BluetoothStatusCodes
 android/bluetooth/BluetoothUtils
 android/bluetooth/BluetoothUuid
@@ -75,6 +77,7 @@ android/bluetooth/BluetoothVolumeControl
 android/bluetooth/BufferConstraint
 android/bluetooth/BufferConstraints
 android/bluetooth/CallbackWrapper
+android/bluetooth/IAudioInputCallback
 android/bluetooth/IBluetooth
 android/bluetooth/IBluetoothA2dp
 android/bluetooth/IBluetoothA2dpSink
@@ -90,6 +93,7 @@ android/bluetooth/IBluetoothGattCallback
 android/bluetooth/IBluetoothGattServerCallback
 android/bluetooth/IBluetoothHapClient
 android/bluetooth/IBluetoothHapClientCallback
+android/bluetooth/IBluetoothHciVendorSpecificCallback
 android/bluetooth/IBluetoothHeadset
 android/bluetooth/IBluetoothHeadsetClient
 android/bluetooth/IBluetoothHearingAid
