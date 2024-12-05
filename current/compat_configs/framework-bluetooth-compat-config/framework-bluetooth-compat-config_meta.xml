@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <config>
   <compat-change enableSinceTargetSdk="35" id="330847930" name="LEAUDIO_MONO_LOCATION_ERRATA">
-    <meta-data definedIn="android.bluetooth.BluetoothLeAudio" sourcePosition="packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothLeAudio.java:359" />
+    <meta-data definedIn="android.bluetooth.BluetoothLeAudio" sourcePosition="packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothLeAudio.java:385" />
   </compat-change>
   <compat-change enableSinceTargetSdk="34" id="265103382" name="CHANGE_TO_STRING_REDACTED">
-    <meta-data definedIn="android.bluetooth.BluetoothDevice" sourcePosition="packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothDevice.java:932" />
+    <meta-data definedIn="android.bluetooth.BluetoothDevice" sourcePosition="packages/modules/Bluetooth/framework/java/android/bluetooth/BluetoothDevice.java:987" />
   </compat-change>
 </config>
