@@ -2868,7 +2868,6 @@ Landroid/bluetooth/BluetoothSocket;->MAX_RFCOMM_CHANNEL:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->SEC_FLAG_AUTH:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->SEC_FLAG_AUTH_16_DIGIT:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->SEC_FLAG_ENCRYPT:I,lo-prio,max-target-o
-Landroid/bluetooth/BluetoothSocket;->SOCK_SIGNAL_SIZE:I,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->TAG:Ljava/lang/String;,lo-prio,max-target-o
 Landroid/bluetooth/BluetoothSocket;->TYPE_L2CAP:I,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothSocket;->TYPE_L2CAP_BREDR:I,lo-prio,max-target-o
@@ -5086,7 +5085,6 @@ Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$Ex
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda269;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda26;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda270;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda271;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda27;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda28;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda29;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
