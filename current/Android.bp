@@ -6,13 +6,18 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+apex_contributions_defaults {
+    name: "btservices-module-sdk.contributions",
+    contents: [
+        "prebuilt_bluetooth-compat-config",
+        "prebuilt_bluetoothapk-platform-compat-config",
+        "prebuilt_framework-bluetooth-compat-config",
+        "prebuilt_framework-bluetooth",
+    ],
+}
+
 prebuilt_bootclasspath_fragment {
     name: "com.android.btservices-bootclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "btservices_module" is true.
-    use_source_config_var: {
-        config_namespace: "btservices_module",
-        var_name: "source_build",
-    },
     visibility: ["//packages/modules/Bluetooth:__subpackages__"],
     apex_available: ["com.android.btservices"],
     licenses: ["btservices-module-sdk_system_bt_license"],
@@ -38,11 +43,6 @@ prebuilt_bootclasspath_fragment {
 
 prebuilt_platform_compat_config {
     name: "bluetooth-compat-config",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "btservices_module" is true.
-    use_source_config_var: {
-        config_namespace: "btservices_module",
-        var_name: "source_build",
-    },
     visibility: ["//packages/modules/Bluetooth:__subpackages__"],
     licenses: ["btservices-module-sdk_Android-Apache-2.0"],
     metadata: "compat_configs/bluetooth-compat-config/bluetooth-compat-config_meta.xml",
@@ -50,11 +50,6 @@ prebuilt_platform_compat_config {
 
 prebuilt_platform_compat_config {
     name: "bluetoothapk-platform-compat-config",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "btservices_module" is true.
-    use_source_config_var: {
-        config_namespace: "btservices_module",
-        var_name: "source_build",
-    },
     visibility: ["//packages/modules/Bluetooth:__subpackages__"],
     licenses: ["btservices-module-sdk_packages_apps_Bluetooth_license"],
     metadata: "compat_configs/bluetoothapk-platform-compat-config/bluetoothapk-platform-compat-config_meta.xml",
@@ -62,11 +57,6 @@ prebuilt_platform_compat_config {
 
 prebuilt_platform_compat_config {
     name: "framework-bluetooth-compat-config",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "btservices_module" is true.
-    use_source_config_var: {
-        config_namespace: "btservices_module",
-        var_name: "source_build",
-    },
     visibility: ["//packages/modules/Bluetooth:__subpackages__"],
     licenses: ["btservices-module-sdk_Android-Apache-2.0"],
     metadata: "compat_configs/framework-bluetooth-compat-config/framework-bluetooth-compat-config_meta.xml",
@@ -74,11 +64,6 @@ prebuilt_platform_compat_config {
 
 java_sdk_library_import {
     name: "framework-bluetooth",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "btservices_module" is true.
-    use_source_config_var: {
-        config_namespace: "btservices_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.btservices"],
     licenses: ["btservices-module-sdk_Android-Apache-2.0"],
@@ -86,7 +71,7 @@ java_sdk_library_import {
     permitted_packages: [
         "android.bluetooth",
         "com.android.bluetooth.flags",
-        "com.android.bluetooth.x",
+        "com.android.bluetooth.jarjar",
     ],
     public: {
         jars: ["sdk_library/public/framework-bluetooth-stubs.jar"],
@@ -116,14 +101,9 @@ java_sdk_library_import {
 
 java_import {
     name: "service-bluetooth",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "btservices_module" is true.
-    use_source_config_var: {
-        config_namespace: "btservices_module",
-        var_name: "source_build",
-    },
     visibility: [
         "//packages/modules/Bluetooth/apex",
-        "//packages/modules/Bluetooth/service:__subpackages__",
+        "//packages/modules/Bluetooth/service",
     ],
     apex_available: ["com.android.btservices"],
     licenses: ["btservices-module-sdk_Android-Apache-2.0"],
@@ -161,11 +141,6 @@ license {
 
 prebuilt_systemserverclasspath_fragment {
     name: "com.android.btservices-systemserverclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "btservices_module" is true.
-    use_source_config_var: {
-        config_namespace: "btservices_module",
-        var_name: "source_build",
-    },
     visibility: ["//packages/modules/Bluetooth:__subpackages__"],
     apex_available: ["com.android.btservices"],
     licenses: ["btservices-module-sdk_system_bt_license"],
