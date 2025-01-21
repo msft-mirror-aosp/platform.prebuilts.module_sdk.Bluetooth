@@ -82,6 +82,7 @@ android/bluetooth/IBluetooth
 android/bluetooth/IBluetoothA2dp
 android/bluetooth/IBluetoothA2dpSink
 android/bluetooth/IBluetoothActivityEnergyInfoListener
+android/bluetooth/IBluetoothAdvertise
 android/bluetooth/IBluetoothAvrcpController
 android/bluetooth/IBluetoothCallback
 android/bluetooth/IBluetoothConnectionCallback
@@ -127,6 +128,7 @@ android/bluetooth/IBluetoothSocketManager
 android/bluetooth/IBluetoothStateChangeCallback
 android/bluetooth/IBluetoothVolumeControl
 android/bluetooth/IBluetoothVolumeControlCallback
+android/bluetooth/IDistanceMeasurement
 android/bluetooth/IncomingRfcommSocketInfo
 android/bluetooth/OobData
 android/bluetooth/SdpDipRecord
