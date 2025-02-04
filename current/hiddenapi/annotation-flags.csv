@@ -300,7 +300,6 @@ Lcom/android/bluetooth/flags/CustomFeatureFlags;->unixFileSocketCreationFailure(
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->updateActiveDeviceInBandRingtone()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->updateInquiryResultOnFlagChange()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->updateScoStateCorrectlyOnRfcommDisconnectDuringCodecNego()Z,unsupported
-Lcom/android/bluetooth/flags/CustomFeatureFlags;->useEncryptReqForAv()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->useEntireMessageHandle()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->useLeShimConnectionMapGuard()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->useLocalOobExtendedCommand()Z,unsupported
@@ -522,7 +521,6 @@ Lcom/android/bluetooth/flags/FeatureFlags;->unixFileSocketCreationFailure()Z,uns
 Lcom/android/bluetooth/flags/FeatureFlags;->updateActiveDeviceInBandRingtone()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->updateInquiryResultOnFlagChange()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->updateScoStateCorrectlyOnRfcommDisconnectDuringCodecNego()Z,unsupported
-Lcom/android/bluetooth/flags/FeatureFlags;->useEncryptReqForAv()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->useEntireMessageHandle()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->useLeShimConnectionMapGuard()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->useLocalOobExtendedCommand()Z,unsupported
@@ -744,7 +742,6 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->unixFileSocketCreationFailure()Z
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->updateActiveDeviceInBandRingtone()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->updateInquiryResultOnFlagChange()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->updateScoStateCorrectlyOnRfcommDisconnectDuringCodecNego()Z,unsupported
-Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useEncryptReqForAv()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useEntireMessageHandle()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useLeShimConnectionMapGuard()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useLocalOobExtendedCommand()Z,unsupported
@@ -966,7 +963,6 @@ Lcom/android/bluetooth/flags/Flags;->unixFileSocketCreationFailure()Z,unsupporte
 Lcom/android/bluetooth/flags/Flags;->updateActiveDeviceInBandRingtone()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->updateInquiryResultOnFlagChange()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->updateScoStateCorrectlyOnRfcommDisconnectDuringCodecNego()Z,unsupported
-Lcom/android/bluetooth/flags/Flags;->useEncryptReqForAv()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->useEntireMessageHandle()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->useLeShimConnectionMapGuard()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->useLocalOobExtendedCommand()Z,unsupported
