@@ -301,7 +301,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->updateActiveDeviceInBandRingtone()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->updateInquiryResultOnFlagChange()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->updateScoStateCorrectlyOnRfcommDisconnectDuringCodecNego()Z|,||,||,||
-|Lcom/android/bluetooth/flags/CustomFeatureFlags;->useEncryptReqForAv()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->useEntireMessageHandle()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->useLeShimConnectionMapGuard()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->useLocalOobExtendedCommand()Z|,||,||,||
@@ -523,7 +522,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->updateActiveDeviceInBandRingtone()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->updateInquiryResultOnFlagChange()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->updateScoStateCorrectlyOnRfcommDisconnectDuringCodecNego()Z|,||,||,||
-|Lcom/android/bluetooth/flags/FeatureFlags;->useEncryptReqForAv()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->useEntireMessageHandle()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->useLeShimConnectionMapGuard()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->useLocalOobExtendedCommand()Z|,||,||,||
@@ -745,7 +743,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->updateActiveDeviceInBandRingtone()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->updateInquiryResultOnFlagChange()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->updateScoStateCorrectlyOnRfcommDisconnectDuringCodecNego()Z|,||,||,||
-|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useEncryptReqForAv()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useEntireMessageHandle()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useLeShimConnectionMapGuard()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->useLocalOobExtendedCommand()Z|,||,||,||
@@ -967,7 +964,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->updateActiveDeviceInBandRingtone()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->updateInquiryResultOnFlagChange()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->updateScoStateCorrectlyOnRfcommDisconnectDuringCodecNego()Z|,||,||,||
-|Lcom/android/bluetooth/flags/Flags;->useEncryptReqForAv()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->useEntireMessageHandle()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->useLeShimConnectionMapGuard()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->useLocalOobExtendedCommand()Z|,||,||,||
