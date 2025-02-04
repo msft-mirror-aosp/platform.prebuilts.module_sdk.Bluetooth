@@ -4451,7 +4451,7 @@ Landroid/bluetooth/le/BluetoothLeScanner;->startScan(Ljava/util/List;Landroid/bl
 Landroid/bluetooth/le/BluetoothLeScanner;->startScan(Ljava/util/List;Landroid/bluetooth/le/ScanSettings;Landroid/bluetooth/le/ScanCallback;)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeScanner;->startScanFromSource(Landroid/os/WorkSource;Landroid/bluetooth/le/ScanCallback;)V,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeScanner;->startScanFromSource(Ljava/util/List;Landroid/bluetooth/le/ScanSettings;Landroid/os/WorkSource;Landroid/bluetooth/le/ScanCallback;)V,sdk,system-api,test-api
-Landroid/bluetooth/le/BluetoothLeScanner;->startTruncatedScan(Ljava/util/List;Landroid/bluetooth/le/ScanSettings;Landroid/bluetooth/le/ScanCallback;)V,sdk,system-api,test-api
+Landroid/bluetooth/le/BluetoothLeScanner;->startTruncatedScan(Ljava/util/List;Landroid/bluetooth/le/ScanSettings;Landroid/bluetooth/le/ScanCallback;)V,removed,unsupported
 Landroid/bluetooth/le/BluetoothLeScanner;->stopScan(Landroid/app/PendingIntent;)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeScanner;->stopScan(Landroid/bluetooth/le/ScanCallback;)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeUtils;-><init>()V,lo-prio,max-target-o
@@ -5226,6 +5226,11 @@ Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$Ex
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda251;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda252;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda253;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda254;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda255;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda256;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda257;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda258;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda25;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda26;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda27;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
