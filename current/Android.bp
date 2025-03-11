@@ -31,7 +31,6 @@ prebuilt_bootclasspath_fragment {
     hidden_api: {
         unsupported: ["hiddenapi/hiddenapi-unsupported.txt"],
         max_target_r_low_priority: ["hiddenapi/hiddenapi-max-target-r-low-priority.txt"],
-        max_target_o_low_priority: ["hiddenapi/hiddenapi-max-target-o-low-priority.txt"],
         annotation_flags: "hiddenapi/annotation-flags.csv",
         metadata: "hiddenapi/metadata.csv",
         index: "hiddenapi/index.csv",
