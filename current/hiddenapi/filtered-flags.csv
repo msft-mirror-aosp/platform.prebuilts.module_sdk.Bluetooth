@@ -91,7 +91,6 @@ Landroid/bluetooth/BluetoothA2dp;->setBufferLengthMillis(II)Z,sdk,system-api,tes
 Landroid/bluetooth/BluetoothA2dp;->setCodecConfigPreference(Landroid/bluetooth/BluetoothDevice;Landroid/bluetooth/BluetoothCodecConfig;)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->setConnectionPolicy(Landroid/bluetooth/BluetoothDevice;I)Z,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothA2dp;->setOptionalCodecsEnabled(Landroid/bluetooth/BluetoothDevice;I)V,sdk,system-api,test-api
-Landroid/bluetooth/BluetoothA2dp;->stateToString(I)Ljava/lang/String;,max-target-p
 Landroid/bluetooth/BluetoothA2dpSink;->ACTION_CONNECTION_STATE_CHANGED:Ljava/lang/String;,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothA2dpSink;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,max-target-r
 Landroid/bluetooth/BluetoothA2dpSink;->finalize()V,core-platform-api,public-api,sdk,system-api,test-api
@@ -1343,7 +1342,6 @@ Landroid/bluetooth/BluetoothHeadset;->isEnabled()Z,unsupported
 Landroid/bluetooth/BluetoothHeadset;->isInbandRingingEnabled()Z,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHeadset;->isNoiseReductionSupported(Landroid/bluetooth/BluetoothDevice;)Z,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHeadset;->isVoiceRecognitionSupported(Landroid/bluetooth/BluetoothDevice;)Z,public-api,sdk,system-api,test-api
-Landroid/bluetooth/BluetoothHeadset;->phoneStateChanged(IIILjava/lang/String;ILjava/lang/String;)V,max-target-r
 Landroid/bluetooth/BluetoothHeadset;->sendVendorSpecificResultCode(Landroid/bluetooth/BluetoothDevice;Ljava/lang/String;Ljava/lang/String;)Z,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothHeadset;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothHeadset;->setAudioRouteAllowed(Z)I,sdk,system-api,test-api
@@ -2029,7 +2027,6 @@ Landroid/bluetooth/BluetoothPan;->getConnectionState(Landroid/bluetooth/Bluetoot
 Landroid/bluetooth/BluetoothPan;->getDevicesMatchingConnectionStates([I)Ljava/util/List;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothPan;->isEnabled()Z,unsupported
 Landroid/bluetooth/BluetoothPan;->isTetheringOn()Z,sdk,system-api,test-api
-Landroid/bluetooth/BluetoothPan;->isValidDevice(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothPan;->log(Ljava/lang/String;)V,unsupported
 Landroid/bluetooth/BluetoothPan;->setBluetoothTethering(Z)V,sdk,system-api,test-api
 Landroid/bluetooth/BluetoothPan;->setConnectionPolicy(Landroid/bluetooth/BluetoothDevice;I)Z,sdk,system-api,test-api
@@ -3008,10 +3005,10 @@ Landroid/bluetooth/le/BluetoothLeAdvertiser;->startAdvertisingSet(Landroid/bluet
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->startAdvertisingSet(Landroid/bluetooth/le/AdvertisingSetParameters;Landroid/bluetooth/le/AdvertiseData;Landroid/bluetooth/le/AdvertiseData;Landroid/bluetooth/le/PeriodicAdvertisingParameters;Landroid/bluetooth/le/AdvertiseData;Landroid/bluetooth/le/AdvertisingSetCallback;Landroid/os/Handler;)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->stopAdvertising(Landroid/bluetooth/le/AdvertiseCallback;)V,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeAdvertiser;->stopAdvertisingSet(Landroid/bluetooth/le/AdvertisingSetCallback;)V,public-api,sdk,system-api,test-api
-Landroid/bluetooth/le/BluetoothLeScanner$1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/bluetooth/le/BluetoothLeScanner$BleScanCallbackWrapper$1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/bluetooth/le/BluetoothLeScanner$BleScanCallbackWrapper$2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
-Landroid/bluetooth/le/BluetoothLeScanner$BleScanCallbackWrapper$3;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/le/BluetoothLeScanner$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/le/BluetoothLeScanner$BleScanCallbackWrapper$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/le/BluetoothLeScanner$BleScanCallbackWrapper$$ExternalSyntheticLambda1;->run()V,core-platform-api,public-api,sdk,system-api,test-api
+Landroid/bluetooth/le/BluetoothLeScanner$BleScanCallbackWrapper$$ExternalSyntheticLambda2;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeScanner;->EXTRA_CALLBACK_TYPE:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeScanner;->EXTRA_ERROR_CODE:Ljava/lang/String;,public-api,sdk,system-api,test-api
 Landroid/bluetooth/le/BluetoothLeScanner;->EXTRA_LIST_SCAN_RESULT:Ljava/lang/String;,public-api,sdk,system-api,test-api
@@ -3602,6 +3599,9 @@ Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$Ex
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda254;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda255;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda256;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda257;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda258;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda259;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda25;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda26;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/jarjar/com/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda27;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
