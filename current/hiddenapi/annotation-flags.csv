@@ -4,7 +4,6 @@ Landroid/bluetooth/BluetoothA2dp;->disconnect(Landroid/bluetooth/BluetoothDevice
 Landroid/bluetooth/BluetoothA2dp;->getActiveDevice()Landroid/bluetooth/BluetoothDevice;,unsupported
 Landroid/bluetooth/BluetoothA2dp;->getPriority(Landroid/bluetooth/BluetoothDevice;)I,max-target-p
 Landroid/bluetooth/BluetoothA2dp;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
-Landroid/bluetooth/BluetoothA2dp;->stateToString(I)Ljava/lang/String;,max-target-p
 Landroid/bluetooth/BluetoothA2dpSink;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,max-target-r
 Landroid/bluetooth/BluetoothAdapter;->factoryReset()Z,max-target-r
 Landroid/bluetooth/BluetoothAdapter;->getBluetoothManager()Landroid/bluetooth/IBluetoothManager;,unsupported
@@ -49,7 +48,6 @@ Landroid/bluetooth/BluetoothHeadset;->close()V,unsupported
 Landroid/bluetooth/BluetoothHeadset;->getActiveDevice()Landroid/bluetooth/BluetoothDevice;,unsupported
 Landroid/bluetooth/BluetoothHeadset;->getPriority(Landroid/bluetooth/BluetoothDevice;)I,max-target-r
 Landroid/bluetooth/BluetoothHeadset;->isEnabled()Z,unsupported
-Landroid/bluetooth/BluetoothHeadset;->phoneStateChanged(IIILjava/lang/String;ILjava/lang/String;)V,max-target-r
 Landroid/bluetooth/BluetoothHeadset;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothHeadsetClient;->acceptCall(Landroid/bluetooth/BluetoothDevice;I)Z,max-target-r
 Landroid/bluetooth/BluetoothHeadsetClient;->connect(Landroid/bluetooth/BluetoothDevice;)Z,max-target-r
@@ -70,7 +68,6 @@ Landroid/bluetooth/BluetoothPan;->close()V,unsupported
 Landroid/bluetooth/BluetoothPan;->connect(Landroid/bluetooth/BluetoothDevice;)Z,max-target-r
 Landroid/bluetooth/BluetoothPan;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothPan;->isEnabled()Z,unsupported
-Landroid/bluetooth/BluetoothPan;->isValidDevice(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothPan;->log(Ljava/lang/String;)V,unsupported
 Landroid/bluetooth/BluetoothPbap;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,max-target-r
 Landroid/bluetooth/BluetoothProfile;->PRIORITY_AUTO_CONNECT:I,max-target-r
