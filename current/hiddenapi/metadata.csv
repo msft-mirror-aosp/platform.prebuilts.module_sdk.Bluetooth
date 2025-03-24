@@ -129,7 +129,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->btSocketApiL2capCid()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->btSystemContextReport()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaAgCmdBrsfAllowUint32()Z|,||,||,||
-|Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaAvSetconfigRejTypeConfusion()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaAvUsePeerCodec()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z|,||,||,||
 |Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaDmDiscoverBoth()Z|,||,||,||
@@ -350,7 +349,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlags;->btSocketApiL2capCid()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->btSystemContextReport()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->btaAgCmdBrsfAllowUint32()Z|,||,||,||
-|Lcom/android/bluetooth/flags/FeatureFlags;->btaAvSetconfigRejTypeConfusion()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->btaAvUsePeerCodec()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlags;->btaDmDiscoverBoth()Z|,||,||,||
@@ -571,7 +569,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btSocketApiL2capCid()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btSystemContextReport()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaAgCmdBrsfAllowUint32()Z|,||,||,||
-|Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaAvSetconfigRejTypeConfusion()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaAvUsePeerCodec()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z|,||,||,||
 |Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaDmDiscoverBoth()Z|,||,||,||
@@ -792,7 +789,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Lcom/android/bluetooth/flags/Flags;->btSocketApiL2capCid()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->btSystemContextReport()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->btaAgCmdBrsfAllowUint32()Z|,||,||,||
-|Lcom/android/bluetooth/flags/Flags;->btaAvSetconfigRejTypeConfusion()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->btaAvUsePeerCodec()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z|,||,||,||
 |Lcom/android/bluetooth/flags/Flags;->btaDmDiscoverBoth()Z|,||,||,||
