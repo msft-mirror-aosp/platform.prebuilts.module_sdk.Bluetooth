@@ -4972,7 +4972,6 @@ Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda217;->te
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda218;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda219;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda21;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
-Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda220;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda22;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda23;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/bluetooth/flags/CustomFeatureFlags$$ExternalSyntheticLambda24;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
@@ -5103,7 +5102,6 @@ Lcom/android/bluetooth/flags/CustomFeatureFlags;->browsingRefactor()Z,unsupporte
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->btSocketApiL2capCid()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->btSystemContextReport()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaAgCmdBrsfAllowUint32()Z,unsupported
-Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaAvSetconfigRejTypeConfusion()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaAvUsePeerCodec()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z,unsupported
 Lcom/android/bluetooth/flags/CustomFeatureFlags;->btaDmDiscoverBoth()Z,unsupported
@@ -5324,7 +5322,6 @@ Lcom/android/bluetooth/flags/FeatureFlags;->browsingRefactor()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->btSocketApiL2capCid()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->btSystemContextReport()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->btaAgCmdBrsfAllowUint32()Z,unsupported
-Lcom/android/bluetooth/flags/FeatureFlags;->btaAvSetconfigRejTypeConfusion()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->btaAvUsePeerCodec()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlags;->btaDmDiscoverBoth()Z,unsupported
@@ -5545,7 +5542,6 @@ Lcom/android/bluetooth/flags/FeatureFlagsImpl;->browsingRefactor()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btSocketApiL2capCid()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btSystemContextReport()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaAgCmdBrsfAllowUint32()Z,unsupported
-Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaAvSetconfigRejTypeConfusion()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaAvUsePeerCodec()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z,unsupported
 Lcom/android/bluetooth/flags/FeatureFlagsImpl;->btaDmDiscoverBoth()Z,unsupported
@@ -5766,7 +5762,6 @@ Lcom/android/bluetooth/flags/Flags;->browsingRefactor()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->btSocketApiL2capCid()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->btSystemContextReport()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->btaAgCmdBrsfAllowUint32()Z,unsupported
-Lcom/android/bluetooth/flags/Flags;->btaAvSetconfigRejTypeConfusion()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->btaAvUsePeerCodec()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->btaDmDeferDeviceDiscoveryStateChangeUntilRnrComplete()Z,unsupported
 Lcom/android/bluetooth/flags/Flags;->btaDmDiscoverBoth()Z,unsupported
