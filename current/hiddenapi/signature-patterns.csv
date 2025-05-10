@@ -112,7 +112,6 @@ android/bluetooth/IBluetoothManager
 android/bluetooth/IBluetoothManagerCallback
 android/bluetooth/IBluetoothMap
 android/bluetooth/IBluetoothMapClient
-android/bluetooth/IBluetoothMcpServiceManager
 android/bluetooth/IBluetoothMetadataListener
 android/bluetooth/IBluetoothOobDataCallback
 android/bluetooth/IBluetoothPan
