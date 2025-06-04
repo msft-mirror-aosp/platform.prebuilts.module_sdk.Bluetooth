@@ -29,7 +29,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Landroid/bluetooth/BluetoothGatt;->mAuthRetryState:I|,|28|,||,|115609023|
 |Landroid/bluetooth/BluetoothGatt;->mAutoConnect:Z|,||,||,||
 |Landroid/bluetooth/BluetoothGatt;->mCallback:Landroid/bluetooth/BluetoothGattCallback;|,||,||,||
-|Landroid/bluetooth/BluetoothGatt;->mClientIf:I|,||,||,||
 |Landroid/bluetooth/BluetoothGatt;->mDeviceBusy:Ljava/lang/Boolean;|,|30|,||,|170729553|
 |Landroid/bluetooth/BluetoothGatt;->mService:Landroid/bluetooth/IBluetoothGatt;|,||,||,||
 |Landroid/bluetooth/BluetoothGatt;->mTransport:I|,|30|,||,|170729553|
