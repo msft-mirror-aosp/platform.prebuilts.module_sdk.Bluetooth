@@ -28,6 +28,7 @@ Landroid/bluetooth/BluetoothGatt;->connect(Ljava/lang/Boolean;Landroid/bluetooth
 Landroid/bluetooth/BluetoothGatt;->mAuthRetryState:I,max-target-p
 Landroid/bluetooth/BluetoothGatt;->mAutoConnect:Z,unsupported
 Landroid/bluetooth/BluetoothGatt;->mCallback:Landroid/bluetooth/BluetoothGattCallback;,unsupported
+Landroid/bluetooth/BluetoothGatt;->mClientIf:I,unsupported
 Landroid/bluetooth/BluetoothGatt;->mDeviceBusy:Ljava/lang/Boolean;,max-target-r
 Landroid/bluetooth/BluetoothGatt;->mService:Landroid/bluetooth/IBluetoothGatt;,unsupported
 Landroid/bluetooth/BluetoothGatt;->mTransport:I,max-target-r

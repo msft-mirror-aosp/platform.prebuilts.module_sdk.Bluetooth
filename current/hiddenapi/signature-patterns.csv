@@ -77,7 +77,6 @@ android/bluetooth/BluetoothVolumeControl
 android/bluetooth/BufferConstraint
 android/bluetooth/BufferConstraints
 android/bluetooth/CallbackWrapper
-android/bluetooth/IAdapter
 android/bluetooth/IAudioInputCallback
 android/bluetooth/IBluetooth
 android/bluetooth/IBluetoothA2dp
@@ -113,6 +112,7 @@ android/bluetooth/IBluetoothManager
 android/bluetooth/IBluetoothManagerCallback
 android/bluetooth/IBluetoothMap
 android/bluetooth/IBluetoothMapClient
+android/bluetooth/IBluetoothMcpServiceManager
 android/bluetooth/IBluetoothMetadataListener
 android/bluetooth/IBluetoothOobDataCallback
 android/bluetooth/IBluetoothPan
