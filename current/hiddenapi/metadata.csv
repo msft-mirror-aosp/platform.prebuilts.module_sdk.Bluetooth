@@ -3,7 +3,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Landroid/bluetooth/BluetoothA2dp;->connect(Landroid/bluetooth/BluetoothDevice;)Z|,||,||,||
 |Landroid/bluetooth/BluetoothA2dp;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z|,||,||,||
 |Landroid/bluetooth/BluetoothA2dp;->getActiveDevice()Landroid/bluetooth/BluetoothDevice;|,||,||,|171933273|
-|Landroid/bluetooth/BluetoothA2dp;->getPriority(Landroid/bluetooth/BluetoothDevice;)I|,|28|,||,|115609023|
 |Landroid/bluetooth/BluetoothA2dp;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;)Z|,||,||,|171933273|
 |Landroid/bluetooth/BluetoothA2dpSink;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z|,|30|,||,|170729553|
 |Landroid/bluetooth/BluetoothAdapter;->factoryReset()Z|,|30|,||,|170729553|
@@ -46,7 +45,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Landroid/bluetooth/BluetoothGattService;->setInstanceId(I)V|,||,||,||
 |Landroid/bluetooth/BluetoothHeadset;->close()V|,||,||,||
 |Landroid/bluetooth/BluetoothHeadset;->getActiveDevice()Landroid/bluetooth/BluetoothDevice;|,||,||,|171933273|
-|Landroid/bluetooth/BluetoothHeadset;->getPriority(Landroid/bluetooth/BluetoothDevice;)I|,|30|,||,|170729553|
 |Landroid/bluetooth/BluetoothHeadset;->isEnabled()Z|,||,||,||
 |Landroid/bluetooth/BluetoothHeadset;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;)Z|,||,||,|171933273|
 |Landroid/bluetooth/BluetoothHeadsetClient;->acceptCall(Landroid/bluetooth/BluetoothDevice;I)Z|,|30|,||,|170729553|
