@@ -57,7 +57,6 @@ android/bluetooth/BluetoothLeCallControl
 android/bluetooth/BluetoothManager
 android/bluetooth/BluetoothMap
 android/bluetooth/BluetoothMapClient
-android/bluetooth/BluetoothMasInstance
 android/bluetooth/BluetoothOutputStream
 android/bluetooth/BluetoothPan
 android/bluetooth/BluetoothPbap
@@ -77,6 +76,7 @@ android/bluetooth/BluetoothVolumeControl
 android/bluetooth/BufferConstraint
 android/bluetooth/BufferConstraints
 android/bluetooth/CallbackWrapper
+android/bluetooth/EncryptionStatus
 android/bluetooth/IAdapter
 android/bluetooth/IAudioInputCallback
 android/bluetooth/IBluetooth
