@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config>
+  <compat-change enableSinceTargetSdk="36" id="386727721" name="CHANGE_DEFAULT_TRACKABLE_ADV_NUMBER">
+    <meta-data definedIn="android.bluetooth.le.ScanSettings" />
+  </compat-change>
+  <compat-change enableSinceTargetSdk="35" id="330847930" name="LEAUDIO_MONO_LOCATION_ERRATA">
+    <meta-data definedIn="android.bluetooth.BluetoothLeAudio" />
+  </compat-change>
+  <compat-change enableSinceTargetSdk="34" id="265103382" name="CHANGE_TO_STRING_REDACTED">
+    <meta-data definedIn="android.bluetooth.BluetoothDevice" />
+  </compat-change>
+</config>
