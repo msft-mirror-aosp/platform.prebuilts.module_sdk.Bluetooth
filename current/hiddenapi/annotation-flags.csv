@@ -2,6 +2,7 @@ Landroid/bluetooth/BluetoothA2dp;->close()V,unsupported
 Landroid/bluetooth/BluetoothA2dp;->connect(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothA2dp;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothA2dp;->getActiveDevice()Landroid/bluetooth/BluetoothDevice;,unsupported
+Landroid/bluetooth/BluetoothA2dp;->getPriority(Landroid/bluetooth/BluetoothDevice;)I,max-target-p
 Landroid/bluetooth/BluetoothA2dp;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothA2dpSink;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,max-target-r
 Landroid/bluetooth/BluetoothAdapter;->factoryReset()Z,max-target-r
@@ -27,6 +28,7 @@ Landroid/bluetooth/BluetoothGatt;->connect(Ljava/lang/Boolean;Landroid/bluetooth
 Landroid/bluetooth/BluetoothGatt;->mAuthRetryState:I,max-target-p
 Landroid/bluetooth/BluetoothGatt;->mAutoConnect:Z,unsupported
 Landroid/bluetooth/BluetoothGatt;->mCallback:Landroid/bluetooth/BluetoothGattCallback;,unsupported
+Landroid/bluetooth/BluetoothGatt;->mClientIf:I,unsupported
 Landroid/bluetooth/BluetoothGatt;->mDeviceBusy:Ljava/lang/Boolean;,max-target-r
 Landroid/bluetooth/BluetoothGatt;->mService:Landroid/bluetooth/IBluetoothGatt;,unsupported
 Landroid/bluetooth/BluetoothGatt;->mTransport:I,max-target-r
@@ -44,6 +46,7 @@ Landroid/bluetooth/BluetoothGattService;->setAdvertisePreferred(Z)V,max-target-r
 Landroid/bluetooth/BluetoothGattService;->setInstanceId(I)V,unsupported
 Landroid/bluetooth/BluetoothHeadset;->close()V,unsupported
 Landroid/bluetooth/BluetoothHeadset;->getActiveDevice()Landroid/bluetooth/BluetoothDevice;,unsupported
+Landroid/bluetooth/BluetoothHeadset;->getPriority(Landroid/bluetooth/BluetoothDevice;)I,max-target-r
 Landroid/bluetooth/BluetoothHeadset;->isEnabled()Z,unsupported
 Landroid/bluetooth/BluetoothHeadset;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothHeadsetClient;->acceptCall(Landroid/bluetooth/BluetoothDevice;I)Z,max-target-r
