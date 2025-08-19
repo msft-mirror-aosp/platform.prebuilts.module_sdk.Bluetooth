@@ -10,7 +10,7 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Landroid/bluetooth/BluetoothAdapter;->getLeState()I|,||,|Use {@link #getState()} instead to determine whether you can use BLE & BT classic.|,||
 |Landroid/bluetooth/BluetoothAdapter;->getUuids()[Landroid/os/ParcelUuid;|,||,||,||
 |Landroid/bluetooth/BluetoothAdapter;->listenUsingEncryptedRfcommWithServiceRecord(Ljava/lang/String;Ljava/util/UUID;)Landroid/bluetooth/BluetoothServerSocket;|,|30|,||,|170729553|
-|Landroid/bluetooth/BluetoothAdapter;->listenUsingRfcommOn(IZZ)Landroid/bluetooth/BluetoothServerSocket;|,||,||,||
+|Landroid/bluetooth/BluetoothAdapter;->listenUsingRfcommOn(ZZ)Landroid/bluetooth/BluetoothServerSocket;|,||,||,||
 |Landroid/bluetooth/BluetoothAdapter;->mService:Landroid/bluetooth/IBluetooth;|,||,||,||
 |Landroid/bluetooth/BluetoothClass;-><init>(I)V|,|28|,||,|115609023|
 |Landroid/bluetooth/BluetoothCodecConfig;-><init>(IIIIIJJJJ)V|,||,||,||
