@@ -117,6 +117,7 @@ android/bluetooth/IBluetoothPanCallback
 android/bluetooth/IBluetoothPbap
 android/bluetooth/IBluetoothPbapClient
 android/bluetooth/IBluetoothPreferredAudioProfilesCallback
+android/bluetooth/IBluetoothProfileCallback
 android/bluetooth/IBluetoothProfileServiceConnection
 android/bluetooth/IBluetoothQualityReportReadyCallback
 android/bluetooth/IBluetoothSap
