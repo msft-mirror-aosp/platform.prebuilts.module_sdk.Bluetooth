@@ -24,13 +24,6 @@ signature,maxTargetSdk,publicAlternatives,trackingBug
 |Landroid/bluetooth/BluetoothDevice;->createInsecureRfcommSocket(I)Landroid/bluetooth/BluetoothSocket;|,||,|Use {@link #createInsecureRfcommSocketToServiceRecord} instead.|,||
 |Landroid/bluetooth/BluetoothDevice;->createRfcommSocket(I)Landroid/bluetooth/BluetoothSocket;|,||,||,||
 |Landroid/bluetooth/BluetoothDevice;->createScoSocket()Landroid/bluetooth/BluetoothSocket;|,||,||,||
-|Landroid/bluetooth/BluetoothGatt;->connect(Ljava/lang/Boolean;Landroid/bluetooth/BluetoothGattCallback;Landroid/os/Handler;)Z|,|30|,||,|170729553|
-|Landroid/bluetooth/BluetoothGatt;->mAuthRetryState:I|,|28|,||,|115609023|
-|Landroid/bluetooth/BluetoothGatt;->mAutoConnect:Z|,||,||,||
-|Landroid/bluetooth/BluetoothGatt;->mCallback:Landroid/bluetooth/BluetoothGattCallback;|,||,||,||
-|Landroid/bluetooth/BluetoothGatt;->mDeviceBusy:Ljava/lang/Boolean;|,|30|,||,|170729553|
-|Landroid/bluetooth/BluetoothGatt;->mService:Landroid/bluetooth/IBluetoothGatt;|,||,||,||
-|Landroid/bluetooth/BluetoothGatt;->mTransport:I|,|30|,||,|170729553|
 |Landroid/bluetooth/BluetoothGatt;->refresh()Z|,||,||,||
 |Landroid/bluetooth/BluetoothGatt;->unregisterApp()V|,||,||,||
 |Landroid/bluetooth/BluetoothGattCharacteristic;->mInstance:I|,||,||,||

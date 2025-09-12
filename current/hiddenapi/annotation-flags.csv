@@ -23,13 +23,6 @@ Landroid/bluetooth/BluetoothDevice;->convertPinToBytes(Ljava/lang/String;)[B,uns
 Landroid/bluetooth/BluetoothDevice;->createInsecureRfcommSocket(I)Landroid/bluetooth/BluetoothSocket;,unsupported
 Landroid/bluetooth/BluetoothDevice;->createRfcommSocket(I)Landroid/bluetooth/BluetoothSocket;,unsupported
 Landroid/bluetooth/BluetoothDevice;->createScoSocket()Landroid/bluetooth/BluetoothSocket;,unsupported
-Landroid/bluetooth/BluetoothGatt;->connect(Ljava/lang/Boolean;Landroid/bluetooth/BluetoothGattCallback;Landroid/os/Handler;)Z,max-target-r
-Landroid/bluetooth/BluetoothGatt;->mAuthRetryState:I,max-target-p
-Landroid/bluetooth/BluetoothGatt;->mAutoConnect:Z,unsupported
-Landroid/bluetooth/BluetoothGatt;->mCallback:Landroid/bluetooth/BluetoothGattCallback;,unsupported
-Landroid/bluetooth/BluetoothGatt;->mDeviceBusy:Ljava/lang/Boolean;,max-target-r
-Landroid/bluetooth/BluetoothGatt;->mService:Landroid/bluetooth/IBluetoothGatt;,unsupported
-Landroid/bluetooth/BluetoothGatt;->mTransport:I,max-target-r
 Landroid/bluetooth/BluetoothGatt;->refresh()Z,unsupported
 Landroid/bluetooth/BluetoothGatt;->unregisterApp()V,unsupported
 Landroid/bluetooth/BluetoothGattCharacteristic;->mInstance:I,unsupported
