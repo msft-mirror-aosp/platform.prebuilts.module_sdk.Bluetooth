@@ -76,6 +76,8 @@ android/bluetooth/BufferConstraint
 android/bluetooth/BufferConstraints
 android/bluetooth/CallbackWrapper
 android/bluetooth/EncryptionStatus
+android/bluetooth/GattOffloadCapabilities
+android/bluetooth/GattOffloadSession
 android/bluetooth/IAdapter
 android/bluetooth/IAudioInputCallback
 android/bluetooth/IBluetooth
