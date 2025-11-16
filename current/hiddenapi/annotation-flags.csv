@@ -3,7 +3,6 @@ Landroid/bluetooth/BluetoothA2dp;->connect(Landroid/bluetooth/BluetoothDevice;)Z
 Landroid/bluetooth/BluetoothA2dp;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
 Landroid/bluetooth/BluetoothA2dp;->getActiveDevice()Landroid/bluetooth/BluetoothDevice;,unsupported
 Landroid/bluetooth/BluetoothA2dp;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;)Z,unsupported
-Landroid/bluetooth/BluetoothA2dpSink;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,max-target-r
 Landroid/bluetooth/BluetoothAdapter;->factoryReset()Z,max-target-r
 Landroid/bluetooth/BluetoothAdapter;->getBluetoothManager()Landroid/bluetooth/IBluetoothManager;,unsupported
 Landroid/bluetooth/BluetoothAdapter;->getLeState()I,unsupported
@@ -18,7 +17,7 @@ Landroid/bluetooth/BluetoothDevice;-><init>(Ljava/lang/String;)V,unsupported
 Landroid/bluetooth/BluetoothDevice;->ACTION_SDP_RECORD:Ljava/lang/String;,max-target-r
 Landroid/bluetooth/BluetoothDevice;->EXTRA_REASON:Ljava/lang/String;,unsupported
 Landroid/bluetooth/BluetoothDevice;->EXTRA_SDP_SEARCH_STATUS:Ljava/lang/String;,max-target-r
-Landroid/bluetooth/BluetoothDevice;->connectGatt(Landroid/content/Context;ZLandroid/bluetooth/BluetoothGattCallback;IZILandroid/os/Handler;)Landroid/bluetooth/BluetoothGatt;,max-target-r
+Landroid/bluetooth/BluetoothDevice;->connectGatt(Landroid/content/Context;ZLandroid/bluetooth/BluetoothGattCallback;IZILjava/util/concurrent/Executor;)Landroid/bluetooth/BluetoothGatt;,max-target-r
 Landroid/bluetooth/BluetoothDevice;->convertPinToBytes(Ljava/lang/String;)[B,unsupported
 Landroid/bluetooth/BluetoothDevice;->createInsecureRfcommSocket(I)Landroid/bluetooth/BluetoothSocket;,unsupported
 Landroid/bluetooth/BluetoothDevice;->createRfcommSocket(I)Landroid/bluetooth/BluetoothSocket;,unsupported

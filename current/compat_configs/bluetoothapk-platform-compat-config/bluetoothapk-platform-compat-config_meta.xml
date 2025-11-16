@@ -3,4 +3,7 @@
   <compat-change enableSinceTargetSdk="34" id="211757425" name="ENFORCE_CONNECT">
     <meta-data definedIn="com.android.bluetooth.ChangeIds" />
   </compat-change>
+  <compat-change enableSinceTargetSdk="10000" id="401333807" name="BONDING_APIS_REQUIRE_PRIVILEGED_PERMISSION">
+    <meta-data definedIn="com.android.bluetooth.ChangeIds" />
+  </compat-change>
 </config>

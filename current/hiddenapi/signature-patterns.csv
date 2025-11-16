@@ -7,7 +7,6 @@ android/bluetooth/BluetoothAdapter
 android/bluetooth/BluetoothAssignedNumbers
 android/bluetooth/BluetoothAudioConfig
 android/bluetooth/BluetoothAvrcp
-android/bluetooth/BluetoothAvrcpController
 android/bluetooth/BluetoothAvrcpPlayerSettings
 android/bluetooth/BluetoothClass
 android/bluetooth/BluetoothCodecConfig
@@ -20,6 +19,7 @@ android/bluetooth/BluetoothFrameworkInitializer
 android/bluetooth/BluetoothGatt
 android/bluetooth/BluetoothGattCallback
 android/bluetooth/BluetoothGattCharacteristic
+android/bluetooth/BluetoothGattConnectionSettings
 android/bluetooth/BluetoothGattDescriptor
 android/bluetooth/BluetoothGattIncludedService
 android/bluetooth/BluetoothGattServer
@@ -85,7 +85,6 @@ android/bluetooth/IBluetoothA2dp
 android/bluetooth/IBluetoothA2dpSink
 android/bluetooth/IBluetoothActivityEnergyInfoListener
 android/bluetooth/IBluetoothAdvertise
-android/bluetooth/IBluetoothAvrcpController
 android/bluetooth/IBluetoothCallback
 android/bluetooth/IBluetoothConnectionCallback
 android/bluetooth/IBluetoothCsipSetCoordinator
@@ -139,6 +138,7 @@ android/bluetooth/SdpPseRecord
 android/bluetooth/SdpRecord
 android/bluetooth/SdpSapsRecord
 android/bluetooth/SocketMetrics
+android/bluetooth/State
 android/bluetooth/SystemServiceMessenger
 android/bluetooth/UidTraffic
 android/bluetooth/le/**
