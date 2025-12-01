@@ -4,7 +4,6 @@ Landroid/bluetooth/BluetoothA2dp;->connect(Landroid/bluetooth/BluetoothDevice;)Z
 Landroid/bluetooth/BluetoothA2dp;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,
 Landroid/bluetooth/BluetoothA2dp;->setActiveDevice(Landroid/bluetooth/BluetoothDevice;)Z,trackingBug=171933273L
 Landroid/bluetooth/BluetoothA2dp;->getActiveDevice()Landroid/bluetooth/BluetoothDevice;,trackingBug=171933273L
-Landroid/bluetooth/BluetoothA2dpSink;->disconnect(Landroid/bluetooth/BluetoothDevice;)Z,maxTargetSdk=30&trackingBug=170729553L
 Landroid/bluetooth/BluetoothAdapter;->mService:Landroid/bluetooth/IBluetooth;,
 Landroid/bluetooth/BluetoothAdapter;->getLeState()I,publicAlternatives=%22Use+%7B%40link+%23getState%28%29%7D+instead+to+determine+whether+you+can+use+BLE+%26+BT+classic.%22
 Landroid/bluetooth/BluetoothAdapter;->factoryReset()Z,maxTargetSdk=30&trackingBug=170729553L
@@ -23,7 +22,7 @@ Landroid/bluetooth/BluetoothDevice;->createRfcommSocket(I)Landroid/bluetooth/Blu
 Landroid/bluetooth/BluetoothDevice;->createInsecureRfcommSocket(I)Landroid/bluetooth/BluetoothSocket;,publicAlternatives=%22Use+%7B%40link+%23createInsecureRfcommSocketToServiceRecord%7D+instead.%22
 Landroid/bluetooth/BluetoothDevice;->createScoSocket()Landroid/bluetooth/BluetoothSocket;,
 Landroid/bluetooth/BluetoothDevice;->convertPinToBytes(Ljava/lang/String;)[B,
-Landroid/bluetooth/BluetoothDevice;->connectGatt(Landroid/content/Context;ZLandroid/bluetooth/BluetoothGattCallback;IZILandroid/os/Handler;)Landroid/bluetooth/BluetoothGatt;,maxTargetSdk=30&trackingBug=170729553L
+Landroid/bluetooth/BluetoothDevice;->connectGatt(Landroid/content/Context;ZLandroid/bluetooth/BluetoothGattCallback;IZILjava/util/concurrent/Executor;)Landroid/bluetooth/BluetoothGatt;,maxTargetSdk=30&trackingBug=170729553L
 Landroid/bluetooth/BluetoothGatt;->unregisterApp()V,
 Landroid/bluetooth/BluetoothGatt;->refresh()Z,
 Landroid/bluetooth/BluetoothGattCharacteristic;->mInstance:I,
