@@ -16,6 +16,7 @@ Landroid/bluetooth/BluetoothCodecConfig;-><init>(IIIIIJJJJ)V,
 Landroid/bluetooth/BluetoothDevice;->EXTRA_REASON:Ljava/lang/String;,
 Landroid/bluetooth/BluetoothDevice;->ACTION_SDP_RECORD:Ljava/lang/String;,maxTargetSdk=30&trackingBug=170729553L
 Landroid/bluetooth/BluetoothDevice;->EXTRA_SDP_SEARCH_STATUS:Ljava/lang/String;,maxTargetSdk=30&trackingBug=170729553L
+Landroid/bluetooth/BluetoothDevice;-><init>(Landroid/bluetooth/BluetoothAdapter;Ljava/lang/String;)V,
 Landroid/bluetooth/BluetoothDevice;-><init>(Ljava/lang/String;)V,
 Landroid/bluetooth/BluetoothDevice;-><init>(Landroid/os/Parcel;)V,
 Landroid/bluetooth/BluetoothDevice;->createRfcommSocket(I)Landroid/bluetooth/BluetoothSocket;,
