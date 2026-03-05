@@ -5,7 +5,6 @@ android/bluetooth/BluetoothA2dpSink
 android/bluetooth/BluetoothActivityEnergyInfo
 android/bluetooth/BluetoothAdapter
 android/bluetooth/BluetoothAssignedNumbers
-android/bluetooth/BluetoothAudioConfig
 android/bluetooth/BluetoothAvrcp
 android/bluetooth/BluetoothAvrcpPlayerSettings
 android/bluetooth/BluetoothClass
