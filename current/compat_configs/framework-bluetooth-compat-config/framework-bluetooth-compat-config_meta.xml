@@ -3,7 +3,7 @@
   <compat-change enableSinceTargetSdk="36" id="386727721" name="CHANGE_DEFAULT_TRACKABLE_ADV_NUMBER">
     <meta-data definedIn="android.bluetooth.le.ScanSettings" />
   </compat-change>
-  <compat-change id="383671392" name="MAKE_SOCKET_READ_BEHAVIOR_CONSISTENT">
+  <compat-change enableSinceTargetSdk="37" id="383671392" name="MAKE_SOCKET_READ_BEHAVIOR_CONSISTENT">
     <meta-data definedIn="android.bluetooth.BluetoothSocket" />
   </compat-change>
   <compat-change enableSinceTargetSdk="35" id="330847930" name="LEAUDIO_MONO_LOCATION_ERRATA">
